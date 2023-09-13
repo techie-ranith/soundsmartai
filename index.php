@@ -7,9 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- navbar import -->
     <?php
         include "navbar.php";
     ?>
+
     <div class="contain2">
         <img src="assets/images/voice wave.gif" class="frontpic" alt="">
         <selection class="toptxt">
@@ -31,20 +33,21 @@
     <!-- 2nd secctor -->
     <div>
         <div class="back1">
-            
             <div class="hithere">
                 <p>Hi there, <br>
                     Whats going on...</p>
-        
             </div>
             <div class="playbut">
                 <img src="assets/images/playbutton.png" alt="">
-        
             </div>
             <div class="voiceimg">
                 <!-- <img src="" alt="image"> -->
             </div>
     </div>
-    
+
+    <?php
+        include "footer.php";
+    ?>
+
 </body>
 </html>

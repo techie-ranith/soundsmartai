@@ -1,0 +1,30 @@
+.topbar a::before{
+  content: '';
+  position:absolute;
+  right: 12px;
+  bottom: 6px;
+  height: 4px;
+  width: 70px; 
+  background: var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
+ 
+  
+  transform: scalex(0);
+
+  transition: transform 0.34s linear;
+
+}
+.topbar a:hover::before{
+  transform: scalex(1);
+}
+.topbar a:hover
+{
+  
+transform: translateY(-9px);
+}
+
+.topbar a{
+  transition: transform 0.2s ease-in;
+  transition: transform 0.9s ease-out;
+}
+
+

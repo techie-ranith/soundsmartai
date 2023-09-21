@@ -1,90 +1,348 @@
 *{
-    margin: 0;
-    padding: 0;
+  padding: 0;
+  margin: 0;
+
+
+
+
+
 }
 
+
+
+
+/* logo and top bar end */
+.maxwidth{
+  position: relative;
+  margin-top:100px ;
+}
 .frontpic{
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    vertical-align: bottom;
-  }
-  .toptxt{
-    position: absolute;
-    top: 140px;
-    left: 40px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    font-size: 80px;
-    height: 188.139px;
-    width:900px;
-    color: aliceblue;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  vertical-align: bottom;
+}
+.toptxt{
+  position: absolute;
+  top: 140px;
+  left: 40px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+
+  height: 188.139px;
+  width:100%;
+  color: aliceblue;
+
+}
+
+.Efficient{
+
+  background: var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+}
+
+
+.para1{
+  position: absolute;
+  top: 240px;
+  left: 10px;
+  color: rgb(255, 255, 255);
+  color: #FFF;
+font-family: Inter;
+font-size: 23px;
+font-weight: 510;
+width: 500px;
+
+}
+/* butoon here page 1 */
+.tryit{
+  position: absolute;
+  top: 400px;
+  height: 84.372px;
+  width: 247px;
+  border-radius: 80px;
+  background-color: #004B8F;
+  border: none;
+  color: white;
+ font-size: 32px;
+ font-weight: bold;
+}
+
+/* done font page */
+.contain4{
+  width: 100%;
+}
+.back1{
+
+
   
-  }
-  
-  .Efficient{
-  
-    background: var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  
-  .para1{
-    position: absolute;
-    top: 200px;
-    left: 10px;
-    color: rgb(255, 255, 255);
-    color: #FFF;
-  font-family: Inter;
-  font-size: 32px;
+  height: 70vh;
+  width: 100%;
+  background-color: black;
+
+}
+.playbut{
+  float: left;
+
+  margin-top: 10%;
+
+
+}
+.voiceimg{
+  float: left;
+  margin-left: 100px;
+  margin-top: 10%;
+}
+
+.hithere{
+  color: white;
+  font-family: inter;
+  font-weight: bolder;
+  font-size: 60px;
+  float: right;
+  margin-top: 10%;
+  margin-right: 200px;
+}
+
+/* 3 sector */
+
+.flex{
+  display: flex;
+  padding-top:20px;
+  padding-left: 40px;
+
+}
+.flex2{
+  display: flex;
+  padding-left: 40px;
+  padding-top:20px;
+
+}
+.back2{
+  height: 100vh;
+  background-color: black;
+  padding-left: 40px;
+}
+.topic1{
+color: white;
+font-size: 50px;
+text-align: center;
+font-weight: bolder;
+padding: 0;
+font-family: inter;
+}
+.topic2{
+  color: white;
+
+  font-size: 35px;
+  font-weight: 300;
+  font-family: 'Blinker', sans-serif;
+  padding-right: 45px;
+
+}
+.disc1{
+  padding-top: 20px;
+  color: rgb(241, 238, 238);
+  width: 350px;
+  font-family: inter;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 500;
+
+
+}
+.topic3{
+  color: white;
+
+  font-size: 35px;
+  font-weight: 300;
+  font-family: 'Blinker', sans-serif;
+  padding-right: 45px;
+}
+.disc2{
+  padding-top: 20px;
+  color: rgb(241, 238, 238);
+  width: 390px;
+  font-family: inter;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 500;
+}
+.topic4{
+  color: white;
+
+  font-size: 35px;
+  font-weight: 300;
+  font-family: 'Blinker', sans-serif;
+
+
+}
+.disc3{
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+  width: 350px;
+  font-family: inter;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 500;
+}
+.learnmore{
+  color: blue;
+  font-weight: bold;
+}
+.page3img{
+  position:absolute;
+  right: 100px;
+  top: 1900px;
+  height:400px;
+  width: 400px;
+
+
+}
+
+/* page4 starting */
+
+.back3{
+
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(98deg, #000 27.26%, #292C64 57.77%, rgba(18, 94, 67, 0.65) 75.21%, #202255 101.37%, #000 120.26%);
+
+
+}
+.soundmartai{
+  margin-left: 200px;
+
+}
+.soundtopic{
+  padding-top: 170px;
+  color: white;
+  font-size: 60px;
+  font-family: inter;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.sounddisc{
+color: white;
+font-size: 25px;
+font-family: inter;
+width: 811px;
+line-height: 131.023%;
+font-weight: 500;
+}
+.mic{
+  position: absolute;
+  right: 111px;
+  top: 2800px;
+}
+
+
+/* page5 starting */
+.back4{
+  height: 50vh;
+  width: 100%;
+  background-color: #000;
+
+}
+.clientimpression{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: inter;
   font-weight: 700;
-  width: 557px;
-    
-  }
-  .tryit{
+  padding-top: 60px;
+
+}
+
+.flex3{
+  padding-top: 70px;
+  color: white;
+  display: flex;
+  font-size: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+
+}
+.paragrph1{
+  width: 570px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.paragrph2{
+  width: 577px;
+  margin-right: 40px;
+
+
+}
+.paragrph3{
+  width: 570px;
+}
+/*  client impresion end */
+
+
+/* media quriees */
+@media (max-width:1500px) {
+
+  .logos{
     position: absolute;
-    top: 400px;
-    height: 84.372px;
-    width: 247px;
-    border-radius: 80px;
-    background-color: #004B8F;
-    border: none;
-    color: white;
-   font-size: 32px;
-   font-weight: bold;
+    left: 100px;
+    
+
+    
   }
-  
-  /* done font page */
+}
+@media(max-width:1266px)
+{
+
+  .frontpic{
+
+    position: relative;
+    width: 1270px;
+  }
   .back1{
-   
-    
+
     margin-top: 0px;
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    
+    position: relative;
+    z-index: 99494;
+    width: 1270px;
   }
-  .playbut{
-    float: left;
-    
-    margin-top: 20%;
+  .back2{
+    position: relative;
+    z-index: 99494;
+    width: 1210px;
+    height: 340vh;
+
+  }
+  .back3
+  {
+    position: relative;
+    z-index: 99494;
+    width: 1270px;
+
+  }
+  .back4{
+    position: relative;
+    z-index: 99494;
+    width: 1270px;
+
+  }
+  .footer
+  {
+    position: relative;
+    z-index: 99494;
+    width: 1270px;
+  }
+ 
+
+}
+
+
+
+ 
+
   
-  
-  }
-  .voiceimg{
-    float: left;
-    margin-left: 100px;
-    margin-top: 20%;
-  }
-  
-  .hithere{
-    color: white;
-    font-family: inter;
-    font-weight: bolder;
-    font-size: 60px;
-    float: right;
-    margin-top: 20%;
-    margin-right: 200px;
-  }

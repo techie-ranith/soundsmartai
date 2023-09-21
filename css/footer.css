@@ -33,21 +33,21 @@
     height: 30px;
 }
 .icon1{
-    background-image: url("../assets/images/insta.png");
+    background-image: url("../assest/insta.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon2{
-    background-image: url("../assets/images/Facebook.png");
+    background-image: url("../assest/Facebook.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .icon3{
-    background-image: url("../assets/images/LinkedIn.png");
+    background-image: url("../assest/LinkedIn.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -17,7 +17,7 @@
    <div class="topbar">   
     <a  class="home" href="../html/index.html" >Home</a>
     <a  href="#support">Support</a>
-    <a  href="#pricing">Pricing</a>
+    <a  href="../html/pricing.php">Pricing</a>
     <a  href="#about">About</a>
     <a  href="#signin">Signin</a>
     <a  href="#signup">SignUp</a>

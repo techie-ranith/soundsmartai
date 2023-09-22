@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soundsmartai</title>
     <!-- LOGO -->
-    <link rel="icon" href="../assets/01.png">
+    <link rel="icon" href="../assest/01.png">
 
     <!-- style sheeet 01 -->
     <link rel="stylesheet" href="../css/index.css">
@@ -28,6 +28,7 @@
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/footer.css">
 
+<link rel="stylesheet" href="../css/media-index.css">
 
 <link rel="stylesheet" href="../css/animation.css">
 </head>

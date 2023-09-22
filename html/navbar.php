@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../css/mediaquree.css">
 <!-- tailwinf -->
 <script src="https://cdn.tailwindcss.com"></script>
+
 <!-- animation -->
 </head>
 <body>

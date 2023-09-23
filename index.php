@@ -52,7 +52,7 @@
                     <p class="para1">We’re building superhuman systems for transcribing and understanding human speech</p>
                 </div>
                 <div>
-                    <button class="tryit">Try it out</button>
+                   <a href="./function.php"><button class="tryit" >Try it out</button></a> 
                 </div>
             </div>
         </selection>

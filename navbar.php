@@ -20,7 +20,7 @@
     <a  href="./faq.php">Support</a>
     <a  href="./pricing.php">Pricing</a>
     <a  href="#about">About</a>
-    <a  href="/siginin.php">Signin</a>
+    <a  href="./siginin.php">Signin</a>
     <a  href="#signup">SignUp</a>
     
 </div> 

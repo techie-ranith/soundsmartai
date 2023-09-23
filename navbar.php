@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="../css/navbar.css">
-  <link rel="stylesheet" href="../css/animation.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/animation.css">
   <!-- mediaqurees -->
-<link rel="stylesheet" href="../css/mediaquree.css">
+<link rel="stylesheet" href="./css/mediaquree.css">
 <!-- tailwinf -->
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -16,15 +16,15 @@
 <body>
    <!-- TOP BAR -->
    <div class="topbar">   
-    <a  class="home" href="../html/index.php" >Home</a>
+    <a  class="home" href="./index.php" >Home</a>
     <a  href="#support">Support</a>
-    <a  href="../html/pricing.php">Pricing</a>
+    <a  href="./pricing.php">Pricing</a>
     <a  href="#about">About</a>
     <a  href="#signin">Signin</a>
     <a  href="#signup">SignUp</a>
     
 </div> 
-<a href="../html/index.php"><div class="logos"><img src="../assest/01.png" ></div>      </a>         
+<a href="./index.php"><div class="logos"><img src="./assest/01.png" ></div>      </a>         
 
 
 

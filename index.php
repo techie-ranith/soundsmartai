@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soundsmartai</title>
     <!-- LOGO -->
-    <link rel="icon" href="../assest/01.png">
+    <link rel="icon" href="./assest/01.png">
 
     <!-- style sheeet 01 -->
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
 
     <!--font family inter  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,11 +26,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/footer.css">
+<link rel="stylesheet" href="./css/footer.css">
 
-<link rel="stylesheet" href="../css/media-index.css">
+<link rel="stylesheet" href="./css/media-index.css">
 
-<link rel="stylesheet" href="../css/animation.css">
+<link rel="stylesheet" href="./css/animation.css">
 </head>
 <body>
     <!-- TOP BAR -->
@@ -41,7 +41,7 @@
     
 
     <div class="contain2">
-        <img src="../assest/02.gif" class="frontpic" alt="">
+        <img src="./assest/02.gif" class="frontpic" alt="">
         <selection class="toptxt">
             <div class="maxwidth">
                 <div >
@@ -71,11 +71,11 @@
     
         </div>
         <div class="playbut">
-            <img src="../assest/03.png" alt="">
+            <img src="./assest/03.png" alt="">
     
         </div>
         <div class="voiceimg">
-            <img src="../assest/04.png" alt="">
+            <img src="./assest/04.png" alt="">
         </div>
         </selection>
     
@@ -167,7 +167,7 @@ The cutting-edge AI speech-to-text tool offers seamless multilingual support, re
 
 
 <!-- adding gif image to 3rd -->
-<img src="../assest/05.gif" class="page3img" alt="">
+<img src="./assest/05.gif" class="page3img" alt="">
 
 
 
@@ -183,7 +183,7 @@ The cutting-edge AI speech-to-text tool offers seamless multilingual support, re
     </div>
 
     <div class="mic">
-        <img src="../assest/06.png" alt="">
+        <img src="./assest/06.png" alt="">
 
     </div>
 

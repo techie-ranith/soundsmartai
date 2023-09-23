@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head><title>Subscription</title>
-<link rel="stylesheet" href="../css/pricing.css">
-<link rel="icon" href="../assest/01.png">
+<link rel="stylesheet" href="./css/pricing.css">
+<link rel="icon" href="./assest/01.png">
 
 </head>
 <body>

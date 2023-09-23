@@ -10,12 +10,13 @@
 <link rel="stylesheet" href="../css/mediaquree.css">
 <!-- tailwinf -->
 <script src="https://cdn.tailwindcss.com"></script>
+
 <!-- animation -->
 </head>
 <body>
    <!-- TOP BAR -->
    <div class="topbar">   
-    <a  class="home" href="../html/index.html" >Home</a>
+    <a  class="home" href="../html/index.php" >Home</a>
     <a  href="#support">Support</a>
     <a  href="../html/pricing.php">Pricing</a>
     <a  href="#about">About</a>
@@ -23,7 +24,7 @@
     <a  href="#signup">SignUp</a>
     
 </div> 
-<a href=""><div class="logos"><img src="../assest/01.png" ></div>      </a>         
+<a href="../html/index.php"><div class="logos"><img src="../assest/01.png" ></div>      </a>         
 
 
 

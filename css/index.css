@@ -31,7 +31,7 @@
   font-size: 80px;
 
   height: 188.139px;
-  width:100%;
+  
   color: aliceblue;
 
 }
@@ -73,9 +73,9 @@ width: 500px;
 }
 
 /* done font page */
-.contain4{
+/* .contain4{
   width: 100%;
-}
+} */
 .back1{
 
 
@@ -284,62 +284,6 @@ font-weight: 500;
 }
 /*  client impresion end */
 
-
-/* media quriees */
-@media (max-width:1500px) {
-
-  .logos{
-    position: absolute;
-    left: 100px;
-    
-
-    
-  }
-}
-@media(max-width:1266px)
-{
-
-  .frontpic{
-
-    position: relative;
-    width: 1270px;
-  }
-  .back1{
-
-    margin-top: 0px;
-    position: relative;
-    z-index: 99494;
-    width: 1270px;
-  }
-  .back2{
-    position: relative;
-    z-index: 99494;
-    width: 1210px;
-    height: 340vh;
-
-  }
-  .back3
-  {
-    position: relative;
-    z-index: 99494;
-    width: 1270px;
-
-  }
-  .back4{
-    position: relative;
-    z-index: 99494;
-    width: 1270px;
-
-  }
-  .footer
-  {
-    position: relative;
-    z-index: 99494;
-    width: 1270px;
-  }
- 
-
-}
 
 
 

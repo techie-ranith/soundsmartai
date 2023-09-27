@@ -1,4 +1,4 @@
-.topbar a::before{
+.topbar .i::before{
   content: '';
   position:absolute;
   right: 12px;
@@ -13,16 +13,16 @@
   transition: transform 0.34s linear;
 
 }
-.topbar a:hover::before{
+.topbar .i:hover::before{
   transform: scalex(1);
 }
-.topbar a:hover
+.topbar .i:hover
 {
   
 transform: translateY(-9px);
 }
 
-.topbar a{
+.topbar .i{
   transition: transform 0.2s ease-in;
   transition: transform 0.9s ease-out;
 }

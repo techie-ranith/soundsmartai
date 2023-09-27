@@ -132,15 +132,17 @@ width: 500px;
   }
   
 }
+.gif{
+  background-image: url(/assest/05.gif);
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  position: absolute;
+  left: 80%;
+ 
+  
 
-
-
-
-
-
-
-
-
+}
 /* container 3 */
 .container3{
   display: flex;
@@ -150,6 +152,8 @@ width: 500px;
   height: 100vh;
   position: relative;
   top: 40px;
+
+  
 }
 .section3{
   display: flex;
@@ -216,28 +220,6 @@ width: 500px;
 .dec{
   font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

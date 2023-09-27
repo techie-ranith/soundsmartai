@@ -146,8 +146,10 @@ width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   height: 100vh;
+  position: relative;
+  top: 40px;
 }
 .section3{
   display: flex;
@@ -181,9 +183,7 @@ width: 500px;
   gap: 20px;
   flex: 3;
 }
-.section3 .left{
 
-}
 .section3 .right{
   background-image: url('../assest/bubble.gif');
   background-repeat: no-repeat;
@@ -198,19 +198,24 @@ width: 500px;
 
 .top{
 
-  font-size: 34px;
+  display: flex;
+  font-size: 45px;
+  
 }
 .top1{
   font-size: 60px;
   font-weight: 700;
   position: relative;
-  bottom: 45%;
+  top: 160px;
 }
 .bottom{
   position: relative;
-  top: 90px;
-}
+  top: 200px;
 
+}
+.dec{
+  font-size: 20px;
+}
 
 
 

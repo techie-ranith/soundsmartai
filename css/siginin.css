@@ -22,7 +22,7 @@ body{
 
 }
 .sigin{
-
+    
     height: 87vh;
 
 }
@@ -55,7 +55,7 @@ input{
 }
 
 button{
-    color: aqua;
+    color: 69deg, #000 -24.37%, #292C64 52.21%, rgba(18, 94, 67, 0.65) 95.97%, #202255 161.6%, #000 209.01%;
 
     width: 394px;
     height: 67px;
@@ -65,3 +65,25 @@ button{
     
 
 }
+.social-icons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none; 
+    color: 69deg, #000 -24.37%, #292C64 52.21%, rgba(18, 94, 67, 0.65) 95.97%, #202255 161.6%, #000 209.01%; 
+  }
+
+  .social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s; 
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  

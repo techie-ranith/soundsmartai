@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 
-
+ height: auto;
 
 
 
@@ -226,7 +226,36 @@ width: 500px;
 
 
 /* page4 starting */
+@media (max-width:1434px) {
+  .back3{
+   position: relative;
+    top: 605px;
+    
+ }
+ .section3{
+  position: relative;
+  top: 45px;
 
+
+}
+.gif{
+  
+}
+
+
+}
+
+@media(maxwidth:1622px)
+{
+.section3{
+   position: relative;
+   top: 34px;
+  
+
+}
+
+
+}
 .back3{
 
   height: 100vh;

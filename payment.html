@@ -1,0 +1,168 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.form-container {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+.form-label {
+  display: block;
+  font-size: 16px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.plan-container {
+  width: 50%;
+  margin: auto;
+}
+
+.plan-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.plan-card {
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+.plan-name {
+  text-align: center;
+  font-size: 18px;
+}
+
+.plan-price {
+  text-align: center;
+  font-size: 36px;
+}
+
+.plan-features {
+  
+}
+
+.plan-feature {
+  
+}
+
+.subscribe-container {
+  
+}
+
+.subscribe-button {
+  
+}
+
+.payment-container {
+  
+}
+
+.payment-button {
+  
+}
+</style>
+</head>
+<body>
+<div class="form-container">
+<h1 class="form-title">Payment Details</h1>
+<form>
+<div class="form-group">
+<label class="form-label" for="email">Email Address</label>
+<input class="form-input" type="email" id="email" name="email" required>
+</div>
+<div class="form-group">
+<label class="form-label" for="card-number">Credit Card Number</label>
+<input class="form-input" type="text" id="card-number" name="card-number" required>
+</div>
+<div class="form-group">
+<label class="form-label" for="expiry-date">Expiry Date</label>
+<input class="form-input" type="text" id="expiry-date" name="expiry-date" required>
+</div>
+<div class="form-group">
+<label class="form-label" for="cvv">CVV</label>
+<input class="form-input" type="text" id="cvv" name="cvv" required>
+</div>
+</form>
+</div>
+
+<div class="plan-container">
+<h1 class="plan-title">Choose Your Plan</h1>
+<div class="plan-card">
+<h2 class="plan-name">Free</h2>
+<p class="plan-price">$0.00</p>
+<ul class="plan-features">
+<li class="plan-feature">Audio to text conversion with a maximum video/audio length of up to <b>2 hours</b></li>
+</ul>
+<div class="subscribe-container">
+<button class="subscribe-button">Subscribe Now</button>
+</div>
+</div>
+
+<div class="plan-card">
+<h2 class="plan-name">Basic</h2>
+<p class="plan-price">$5.00</p>
+<ul class="plan-features">
+<li class="plan-feature"><b>Unlimited conversion</b></li>
+</ul>
+<div class="subscribe-container">
+<button class="subscribe-button">Subscribe Now</button>
+</div>
+</div>
+
+<div class="plan-card">
+<h2 class="plan-name">Pro</h2>
+<p class="plan-price">$10.00</p>
+<ul class="plan-features">
+<li class="plan-feature"><b>Unlimited conversion, language support and auto prompt recognition.</b></li>
+</ul>
+<div class="subscribe-container">
+<button class="subscribe-button">Subscribe Now</button>
+</div>
+</div>
+
+<div class="payment-container">
+<p>Pay using:</p>
+<button class="payment-button">Visa</button>
+<button class="payment-button">Mastercard</button>
+</div>
+
+</div>
+
+</body>
+</html>
+

@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 
- height: auto;
+ 
 
 
 
@@ -130,8 +130,27 @@ width: 500px;
     position: relative;
     top: 25%;
   }
-  
+  .contain2{
+    position: relative;
+    margin-bottom: 300px;
+  }
+ 
 }
+
+@media (max-width:981px) {
+  
+  .section3{
+    height: 200vh;
+  }
+}
+@media (maxwidth:663px) {
+  .section3{
+    height: 300vh;
+  }
+}
+  
+
+
 .gif{
   background-image: url(/assest/05.gif);
   height: 350px;
@@ -189,7 +208,7 @@ width: 500px;
 }
 
 .section3 .right{
-  background-image: url('../assest/bubble.gif');
+  background-image: url('../assest/');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

@@ -2,30 +2,40 @@
   padding: 0;
   margin: 0;
 
-
+ height: auto;
 
 
 
 }
 
 
-
+body{
+  background-color: #000000;
+}
 
 /* logo and top bar end */
 .maxwidth{
   position: relative;
-  margin-top:100px ;
+  left: 10%;
+  
+
+
+  
 }
 .frontpic{
-  position: relative;
+  display: flex;
+  align-items: center;
   height: 100vh;
-  width: 100%;
-  vertical-align: bottom;
+  background-image: url("../assest/02.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
 }
 .toptxt{
-  position: absolute;
-  top: 140px;
-  left: 40px;
+  display: flex;
+  align-items: center;
+  left: 4px;
   font-family: 'Inter', sans-serif;
   font-weight: 900;
   font-size: 80px;
@@ -47,8 +57,8 @@
 
 
 .para1{
-  position: absolute;
-  top: 240px;
+  position: relative;
+  top: 40px;
   left: 10px;
   color: rgb(255, 255, 255);
   color: #FFF;
@@ -60,8 +70,8 @@ width: 500px;
 }
 /* butoon here page 1 */
 .tryit{
-  position: absolute;
-  top: 400px;
+  position: relative;
+  top: 60px;
   height: 84.372px;
   width: 247px;
   border-radius: 80px;
@@ -72,140 +82,180 @@ width: 500px;
  font-weight: bold;
 }
 
-/* done font page */
-/* .contain4{
-  width: 100%;
-} */
-.back1{
 
+/* container2 */
+.contain2{
+  height: 100vh;
+}
+
+
+.playbut{
+  background-image: url(../assest/03.png);
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 170px;
+  height: 170px;
+  position: relative;
+  top: 40%;
+  left: 5%;
+
+}
+.wave{
+  background-image: url(../assest/04.png);
+  width: 400px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 24%;
+  left: 36%;
+
+}
+
+.hi{
+  float: right;
+  font-size: 80px;
+  font-weight: bold;
+  margin-right: 10%;
+}
+
+@media (max-width:1434px) {
+  .hi{
+    position: relative;
+    top: 25%;
+  }
+  
+}
+.gif{
+  background-image: url(/assest/05.gif);
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  position: absolute;
+  left: 80%;
+ 
+  
+
+}
+/* container 3 */
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  height: 100vh;
+  position: relative;
+  top: 40px;
 
   
-  height: 70vh;
+}
+.section3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  position: relative;
+  bottom: 30%;
+}
+.section3 .top{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.section3 .bottom{
+  display: flex;
+  align-items: start;
+  justify-items: start;
+  /* border: 2px solid green; */
+  display: grid;
+  /* align-items: center; */
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row: span 2;
+  grid-column: 4;
+  gap: 20px;
+  flex: 3;
+}
+
+.section3 .right{
+  background-image: url('../assest/bubble.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   width: 100%;
-  background-color: black;
-
-}
-.playbut{
-  float: left;
-
-  margin-top: 10%;
-
-
-}
-.voiceimg{
-  float: left;
-  margin-left: 100px;
-  margin-top: 10%;
+  height: 100%;
+  /* border: 2px solid green; */
+  width: 200px;
+  height: 200px;
 }
 
-.hithere{
-  color: white;
-  font-family: inter;
-  font-weight: bolder;
+.top{
+
+  display: flex;
+  font-size: 45px;
+  
+}
+.top1{
   font-size: 60px;
-  float: right;
-  margin-top: 10%;
-  margin-right: 200px;
+  font-weight: 700;
+  position: relative;
+  top: 160px;
 }
-
-/* 3 sector */
-
-.flex{
-  display: flex;
-  padding-top:20px;
-  padding-left: 40px;
+.bottom{
+  position: relative;
+  top: 200px;
 
 }
-.flex2{
-  display: flex;
-  padding-left: 40px;
-  padding-top:20px;
-
-}
-.back2{
-  height: 100vh;
-  background-color: black;
-  padding-left: 40px;
-}
-.topic1{
-color: white;
-font-size: 50px;
-text-align: center;
-font-weight: bolder;
-padding: 0;
-font-family: inter;
-}
-.topic2{
-  color: white;
-
-  font-size: 35px;
-  font-weight: 300;
-  font-family: 'Blinker', sans-serif;
-  padding-right: 45px;
-
-}
-.disc1{
-  padding-top: 20px;
-  color: rgb(241, 238, 238);
-  width: 350px;
-  font-family: inter;
+.dec{
   font-size: 20px;
-  text-align: justify;
-  font-weight: 500;
-
-
 }
-.topic3{
-  color: white;
-
-  font-size: 35px;
-  font-weight: 300;
-  font-family: 'Blinker', sans-serif;
-  padding-right: 45px;
-}
-.disc2{
-  padding-top: 20px;
-  color: rgb(241, 238, 238);
-  width: 390px;
-  font-family: inter;
-  font-size: 20px;
-  text-align: justify;
-  font-weight: 500;
-}
-.topic4{
-  color: white;
-
-  font-size: 35px;
-  font-weight: 300;
-  font-family: 'Blinker', sans-serif;
 
 
-}
-.disc3{
-  padding-top: 10px;
-  color: rgb(255, 255, 255);
-  width: 350px;
-  font-family: inter;
-  font-size: 20px;
-  text-align: justify;
-  font-weight: 500;
-}
-.learnmore{
-  color: blue;
-  font-weight: bold;
-}
-.page3img{
-  position:absolute;
-  right: 100px;
-  top: 1900px;
-  height:400px;
-  width: 400px;
 
 
-}
 
 /* page4 starting */
+@media (max-width:1434px) {
+  .back3{
+   position: relative;
+    top: 605px;
+    
+ }
+ .section3{
+  position: relative;
+  top: 45px;
 
+
+}
+.gif{
+  
+}
+
+
+}
+
+@media(maxwidth:1622px)
+{
+.section3{
+   position: relative;
+   top: 34px;
+  
+
+}
+
+
+}
 .back3{
 
   height: 100vh;

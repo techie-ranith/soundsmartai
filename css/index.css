@@ -7,11 +7,35 @@
 
 
 }
+::-webkit-scrollbar{
+ background-color: #000000;
+width: 10px;
+
+
+
+}
+::-webkit-scrollbar-track{
+
+  margin-block: 120px;
+  padding: 3;
+  
+}
+::-webkit-scrollbar-thumb{
+ 
+  background:  var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
+  border-radius: 60px;
+ 
+}
+
+
 
 
 body{
   background-color: #000000;
-  margin: 0px 30px 0px 30px;
+
+  overflow-x: hidden;
+  overflow-y:scroll;
+
 }
 
 /* logo and top bar end */
@@ -29,9 +53,10 @@ body{
   height: 100vh;
   background-image: url("../assest/02.gif");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
- 
+  
+
 }
 .toptxt{
   display: flex;
@@ -153,7 +178,7 @@ width: 500px;
 
 
 .gif{
-  background-image: url(/assest/05.gif);
+  /* background-image: url(/assest/05.gif); */
   height: 350px;
   width: 350px;
   background-size: cover;
@@ -209,7 +234,7 @@ width: 500px;
 }
 
 .section3 .right{
-  background-image: url('../assest/');
+  /* background-image: url('../assest/'); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -295,16 +320,18 @@ width: 500px;
 }
 .sounddisc{
 color: white;
-font-size: 25px;
+font-size: auto;
 font-family: inter;
-width: 811px;
+width: auto;
+padding-right: 80px;
+text-align: justify;
 
 font-weight: 500;
 
-width: auto;
+
 padding-bottom: 100px;
 display: flex;
-align-items: flex-start;
+
 }
 .mic{
   position: absolute;

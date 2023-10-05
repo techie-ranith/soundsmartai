@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(69deg, #000 -24.37%, #292C64 52.21%, rgba(18, 94, 67, 0.65) 95.97%, #202255 161.6%, #000 209.01%);
 }
 
 .form-container {
@@ -17,6 +17,10 @@ body {
   padding: 20px;
   background: white;
   border-radius: 10px;
+ 
+stroke-width: 1px;
+mix-blend-mode: multiply;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .form-title {
@@ -35,11 +39,13 @@ body {
 }
 
 .form-input {
-  display: block;
-  width: 100%;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: 250px;
+height: 25px;
+flex-shrink: 0;
+  border-radius: 31px;
+border: 1px solid #000;
+background: #D9D9D9;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .plan-container {
@@ -54,12 +60,14 @@ body {
 }
 
 .plan-card {
-  display: inline-block;
-  width: calc(33.33% - 20px);
-  margin: 10px;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
+  width: 177px;
+height: 276px;
+flex-shrink: 0;
+  border-radius: 28px;
+border: 1px solid #000;
+background: #FFF;
+mix-blend-mode: soft-light;
+box-shadow: 0px 4px 50px 8px rgba(0, 0, 0, 0.25) inset;
 }
 
 .plan-name {
@@ -80,13 +88,6 @@ body {
   
 }
 
-.subscribe-container {
-  
-}
-
-.subscribe-button {
-  
-}
 
 .payment-container {
   
@@ -128,8 +129,7 @@ body {
 <ul class="plan-features">
 <li class="plan-feature">Audio to text conversion with a maximum video/audio length of up to <b>2 hours</b></li>
 </ul>
-<div class="subscribe-container">
-<button class="subscribe-button">Subscribe Now</button>
+
 </div>
 </div>
 
@@ -139,8 +139,6 @@ body {
 <ul class="plan-features">
 <li class="plan-feature"><b>Unlimited conversion</b></li>
 </ul>
-<div class="subscribe-container">
-<button class="subscribe-button">Subscribe Now</button>
 </div>
 </div>
 
@@ -150,8 +148,6 @@ body {
 <ul class="plan-features">
 <li class="plan-feature"><b>Unlimited conversion, language support and auto prompt recognition.</b></li>
 </ul>
-<div class="subscribe-container">
-<button class="subscribe-button">Subscribe Now</button>
 </div>
 </div>
 

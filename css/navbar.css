@@ -15,7 +15,7 @@
   background-color: black;
   /* overflow: hidden; */
   width: 100%;
-  height:6dvb;
+  height:fit-content;
   top: 0;
   position: fixed;
   display: flex;

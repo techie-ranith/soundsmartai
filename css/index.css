@@ -35,6 +35,7 @@ body{
 
   overflow-x: hidden;
   overflow-y:scroll;
+  border: #06FF97 solid 2px;
 
 }
 
@@ -107,6 +108,14 @@ width: 500px;
  font-size: 32px;
  font-weight: bold;
 }
+.tryit:hover{
+  background: var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
+  cursor: pointer;
+  color: #000000;
+  cursor: pointer;
+  transition: 4s;
+  transform: b;
+}
 
 
 /* container2 */
@@ -151,30 +160,7 @@ width: 500px;
   margin-right: 10%;
 }
 
-@media (max-width:1434px) {
-  .hi{
-    position: relative;
-    top: 25%;
-  }
-  .contain2{
-    position: relative;
-    margin-bottom: 300px;
-  }
- 
-}
 
-@media (max-width:981px) {
-  
-  .section3{
-    height: 200vh;
-  }
-}
-@media (maxwidth:663px) {
-  .section3{
-    height: 300vh;
-  }
-}
-  
 
 
 .gif{
@@ -272,33 +258,7 @@ width: 500px;
 
 
 /* page4 starting */
-@media (max-width:1434px) {
-  .back3{
-   position: relative;
-    top: 605px;
-    
- }
- .section3{
-  position: relative;
-  top: 45px;
 
-
-}
-
-
-}
-
-@media(maxwidth:1622px)
-{
-.section3{
-   position: relative;
-   top: 34px;
-  
-
-}
-
-
-}
 .back3{
  /* margin: auto; */
   height: auto;

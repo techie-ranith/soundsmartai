@@ -36,8 +36,47 @@
 <link rel="stylesheet" href="./css/media-index.css">
 
 <link rel="stylesheet" href="./css/media-index.css">
+<link rel="stylesheet" href="./css/cursor.css">
 </head>
 <body>
+
+
+     <div class="cursor"></div>
+     <script type="text/javascript">
+        const cursor = document.querySelector(".cursor");
+
+        document.addEventListener("mousemove", (e) => {
+            let x=e.pageX;
+            let y=e.pageY;
+
+            cursor.style.top = y+ "px";
+            cursor.style.left= x + "px";
+            
+
+        });
+
+    
+     </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- TOP BAR -->
  <!-- TOP BAR -->
  <div class="topbar"> 
@@ -56,6 +95,7 @@
     <span class="menu"></span>
 </a>
     
+
 </div> 
 
     <div class="contain2">
@@ -69,7 +109,7 @@
                
                     <p class="para1">We’re building superhuman systems for transcribing and understanding human speech</p>
                 
-                <div>
+                <div class="bttr">
                    <a href="./function.html"><button class="tryit" >Try it out</button></a> 
                 </div>
             </div>

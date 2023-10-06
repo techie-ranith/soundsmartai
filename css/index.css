@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 
- 
+
 
 
 
@@ -18,13 +18,13 @@ width: 10px;
 
   margin-block: 120px;
   padding: 3;
-  
+
 }
 ::-webkit-scrollbar-thumb{
- 
+
   background:  var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
   border-radius: 60px;
- 
+
 }
 
 
@@ -35,7 +35,9 @@ body{
 
   overflow-x: hidden;
   overflow-y:scroll;
-  border: #06FF97 solid 2px;
+  scroll-behavior: smooth;
+  
+  
 
 }
 
@@ -43,10 +45,10 @@ body{
 .maxwidth{
   position: relative;
   left: 10%;
-  
+ 
 
 
-  
+
 }
 .frontpic{
   display: flex;
@@ -55,8 +57,8 @@ body{
   background-image: url("../assest/02.gif");
   background-repeat: no-repeat;
   background-size:cover;
-  background-position: center;
-  
+  background-position:center;
+  width: a;
 
 }
 .toptxt{
@@ -68,7 +70,7 @@ body{
   font-size: 80px;
 
   height: 188.139px;
-  
+ 
   color: aliceblue;
 
 }
@@ -80,6 +82,7 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 100px;
+  
 }
 
 
@@ -170,8 +173,8 @@ width: 500px;
   background-size: cover;
   position: absolute;
   left: 80%;
- 
-  
+
+
 
 }
 /* container 3 */
@@ -179,12 +182,28 @@ width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid red;
-  height: 100vh;
+  /* border: 2px solid red; */
+  height:fit-content;
   position: relative;
   top: 40px;
+ 
 
+
+}
+
+@media(min-width:1300px){
+  .container03{
+    display: none;
   
+  }
+
+
+}
+@media(max-width:1300px){
+  .container3{
+    display: none;
+  
+  }
 }
 .section3{
   display: flex;
@@ -217,6 +236,7 @@ width: 500px;
   grid-column: 4;
   gap: 20px;
   flex: 3;
+
 }
 
 .section3 .right{
@@ -235,7 +255,8 @@ width: 500px;
 
   display: flex;
   font-size: 45px;
-  
+  color:bisque;
+
 }
 .top1{
   font-size: 60px;
@@ -264,7 +285,7 @@ width: 500px;
   height: auto;
   width: 100%;
   background: linear-gradient(98deg, #000 27.26%, #292C64 57.77%, rgba(18, 94, 67, 0.65) 75.21%, #202255 101.37%, #000 120.26%);
-  
+
 
 }
 .soundmartai{
@@ -343,4 +364,4 @@ display: flex;
 }
 /*  client impresion end */
 
-  
+

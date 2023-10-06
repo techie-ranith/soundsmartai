@@ -62,13 +62,13 @@
        <div class="frontpic">
         <selection class="toptxt">
             <div class="maxwidth">
-                <div >
+                <div class="wo" >
                     <p >CONVERT <span class="Efficient">EFFICIENT</span><br>
                         SPEACH TO TEXT<br></p>
                 </div>
-                <div class="contain3">
+               
                     <p class="para1">We’re building superhuman systems for transcribing and understanding human speech</p>
-                </div>
+                
                 <div>
                    <a href="./function.html"><button class="tryit" >Try it out</button></a> 
                 </div>
@@ -83,7 +83,7 @@
       
 
 
-<div class="contain2">
+ <div class="contain2">
     
                 <div class="playbut"></div>
                 <div class="wave"></div>
@@ -91,7 +91,7 @@
             
               
 
-</div>   
+</div>    
 
 
 
@@ -99,7 +99,7 @@
 <!--  3rd sector -->
 
 
-<!-- <div class="container3">
+<div class="container3">
 
 
 <div class="section3">
@@ -132,9 +132,89 @@
         </div>
     </div>
 </div>
+</div>
 
-<div class="gif"></div>
-</div> -->
+
+
+
+<div class="container03">
+
+
+    <div class="section03">
+        <div class="top1">Building AI Systems that Convert Speech to Text</div>
+        <div class="bottom">
+            <div class="text1">
+                <div class="top">Human-level accuracy</div>
+                <div class="dec">Our cutting-edge AI speech-to-text tool boasts a remarkable human-level accuracy in converting spoken language into text. With advanced neural networks and natural language processing algorithms, it effortlessly transcribes spoken words with unparalleled precision.</div>
+            </div>
+            <div class="text2">
+                <div class="top">Versertility</div>
+                <div class="dec">The AI speech-to-text tool boasts exceptional versatility with its robust support for multiple audio formats. This cutting-edge technology seamlessly converts spoken words from various file types into accurate and easily editable text, making it an invaluable asset for professionals across industries seeking efficient and comprehensive transcription solutions.</div>
+            </div>
+            <div class="text3">
+                <div class="top">multiple language support</div>
+                <div class="dec">The cutting-edge AI speech-to-text tool offers seamless multilingual support, revolutionizing communication across borders. With its remarkable ability to convert spoken words into text in numerous languages, it breaks down language barriers and enhances accessibility for global users Learn more. </div>
+            </div>
+            <div class="right"></div>
+            <div class="text4">
+                <div class="top">multiple ASRM’s</div>
+                <div class="dec">Sound Smart AI uses Automatic Speech Recognition models that convert speech to text with deferent accuracies and capabilities Learn More. </div>
+            </div>
+            <div class="text5">
+                <div class="top">Noise Reduction</div>
+                <div class="dec">The AI speech-to-text tool boasts an exceptional Noise Reduction feature, setting a new standard in accurate transcription. Its cutting-edge algorithms filter out ambient noise and distractions, ensuring crystal-clear conversion of spoken words into text. Users can now effortlessly transcribe audio in even the most challenging acoustic environments.</div>
+            </div>
+            <div class="text6">
+                <div class="top">Real Time Transcription</div>
+                <div class="dec">This feature enables immediate conversion of spoken words into text during live conversations, presentations, or events. It ensures that users can access written transcripts in real-time, making it invaluable for accessibility, note-taking, and real-time decision-making in various contexts.</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         

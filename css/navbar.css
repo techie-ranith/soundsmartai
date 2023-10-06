@@ -91,26 +91,6 @@
 }
 
 
-
-
-@media(max-width:375px){
-  .img1{
-
-    position: relative;
-    float: left;
-    margin-left: 460px;
-  
-  }
-  .togle{
-    display: flex;
-    margin-right: 30px;
-  }
-  .i{
-    display: none;
-  }
-
-}
-
 .img1{
   height: 28px;
   width: auto;

@@ -23,7 +23,7 @@ body{
 .left{
  height: 100%;
  flex: 2;
- border: 2px solid green;
+ border: 2px solid rgb(0, 0, 0);
  background-image:url("../assest/signin.jpg");
  background-size: cover;
  background-repeat: no-repeat;
@@ -31,15 +31,111 @@ body{
 
 }
 .right{
-    height: 100%;
-    border: 2px solid green;
+    height: 100vh;
+    border: 2px solid rgb(0, 0, 0);
     flex: 2;
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: 0
+    
 
 
 }
-.main{
-   
+.main
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding-top: 50%;
+    color: #FFFCFC;
+    text-align: center;
+    font-family: Inter;
+    font-size: px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+.email input
+{
+  
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #90AAED;
+    width: 300px;
+    height: 40px;
+    flex-shrink: 0;
+    padding-left: 10%;
+}
+.pwd input
+{
+    
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #90AAED;
+    width: 300px;
+    height: 40px;
+    flex-shrink: 0;
+    padding-left: 10%;
+}
+.icons {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute icons evenly */
+    align-items: center; /* Vertically center icons */
+}
+.icon
+ {
+
+    width: 48px; 
+    height: 48px;
+    background-size: cover;
+    margin: 10px; 
+}
+
+#facebook {
+    background-image: url('../assest/Facebook.png'); 
+}
+
+#email {
+    background-image: url('../assest/G-Mail.png');
+}
+
+#apple {
+    background-image: url('../assest/Apple.png'); 
+}
+
+.done
+{
+text-align: center;
+font-family: Inter;
+font-size: px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.done button
+
+    {
+        order: none;
+          outline: none;
+          border-radius: 30px;
+          background: #90AAED;
+          width: 200px;
+          height: 50px;
+          flex-shrink: 0;
+          
+          
+      
+      }
+.noacc
+{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
 }

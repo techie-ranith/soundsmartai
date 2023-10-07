@@ -21,7 +21,7 @@ body{
 }
 
 .left{
- height: 100%;
+ height: 100vh;
  flex: 2;
  border: 2px solid rgb(0, 0, 0);
  background-image:url("../assest/Wallpaper\ 2.jpg");
@@ -38,6 +38,8 @@ body{
     justify-content: center;
     align-content: center;
     margin: 0
+    position:relative;
+    bottom:30px;
     
 
 
@@ -60,17 +62,32 @@ body{
     line-height: normal;
 
 }
+.name input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    width: 300px;
+    background-image:url('../assest/Wallpaper\ 2.jpg');
+    font-weight:bolder ;
+    border:none;
+    height: 40px;
+    flex-shrink: 0;
+    padding-left: 10%;
+}
+
 .email input
 {
   
     border: none;
     outline: none;
     border-radius: 30px;
-    background: #90AAED;
     width: 300px;
+    background-image:url('../assest/Wallpaper\ 2.jpg');
+    font-weight:bolder ;
     height: 40px;
     flex-shrink: 0;
     padding-left: 10%;
+    border:none;
 }
 .pwd input
 {
@@ -78,11 +95,25 @@ body{
     border: none;
     outline: none;
     border-radius: 30px;
-    background: #90AAED;
+    background-image:url('../assest/Wallpaper\ 2.jpg');
+    font-weight:bolder ;
     width: 300px;
     height: 40px;
     flex-shrink: 0;
     padding-left: 10%;
+    border:none;
+}
+.confirm-pwd input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-image:url('../assest/Wallpaper\ 2.jpg');
+    font-weight:bolder ;
+    width: 300px;
+    height: 40px;
+    flex-shrink: 0;
+    padding-left: 10%;
+
 }
 .icons {
     display: flex; /* Use flexbox */
@@ -104,6 +135,7 @@ body{
 
 #email {
     background-image: url('../assest/G-Mail.png');
+    width: 62px;
 }
 
 #apple {
@@ -126,11 +158,17 @@ body{
 .done button
 
     {
-        width: 394px;
-height: 67px;
-flex-shrink: 0;
-border-radius: 89px;
-background: #6A84E0;
+        position:relative;
+        top:30px;
+        border:none;
+        width: 200px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 89px;
+        background-image:url('../assest/Wallpaper\ 2.jpg');
+        font-size:18px;
+        font-weight: bold;
+
           
           
       

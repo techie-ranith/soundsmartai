@@ -21,7 +21,7 @@ body{
 }
 
 .left{
- height: 100vh;
+ height:100%;
  flex: 2;
  border: 2px solid rgb(0, 0, 0);
  background-image:url("../assest/Wallpaper\ 2.jpg");
@@ -31,7 +31,7 @@ body{
 
 }
 .right{
-    height: 100vh;
+    height: 100%;
     border: 2px solid rgb(0, 0, 0);
     flex: 2;
     display: flex;

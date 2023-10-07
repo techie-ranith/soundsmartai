@@ -66,11 +66,16 @@ body{
     border: none;
     outline: none;
     border-radius: 30px;
-    background: #90AAED;
+    /* background: #90AAED; */
+
+    background-image: url(../assest/signin.jpg);
     width: 300px;
     height: 40px;
     flex-shrink: 0;
     padding-left: 10%;
+    color: #000;
+    font-size: 23px;
+    font-weight: bold;
 }
 .pwd input
 {
@@ -78,11 +83,15 @@ body{
     border: none;
     outline: none;
     border-radius: 30px;
-    background: #90AAED;
+    /* background: #90AAED; */
+    background-image: url(../assest/signin.jpg);
+
     width: 300px;
     height: 40px;
     flex-shrink: 0;
     padding-left: 10%;
+    color: #000;
+    font-size: 23px;
 }
 .icons {
     display: flex; /* Use flexbox */
@@ -104,6 +113,7 @@ body{
 
 #email {
     background-image: url('../assest/G-Mail.png');
+    width: 62px;
 }
 
 #apple {
@@ -115,6 +125,7 @@ body{
 text-align: center;
 font-family: Inter;
 font-size: px;
+
 font-style: normal;
 font-weight: 900;
 line-height: normal;
@@ -122,17 +133,28 @@ line-height: normal;
 .done button
 
     {
+        position: relative;
+        top: 30px;
         order: none;
           outline: none;
           border-radius: 30px;
-          background: #90AAED;
+          /* background: #90AAED; 
+        */
+        background-image: url(../assest/signin.jpg);
+
           width: 200px;
           height: 50px;
           flex-shrink: 0;
           
-          
+          color:  #000;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
       
       }
+
+
+
 .noacc
 {
     font-size: 13px;

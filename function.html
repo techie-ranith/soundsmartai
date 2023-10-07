@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/function.css">
-    <!--css import-->
-    <link rel="stylesheet" href="./css/function.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-<?php
-    include "navbar.php";
-      ?>
+<body class="text-white bg-black">
 
-<div class="maincontain">
-    <div class="text1">DRAG HERE</div><br>
-    <div class="func">Drag & Drop<br>or Browse</div>
-    <div class="sub">Submit</div>
-        
+    <div class="flex items-center justify-center h-screen container1">
+        <div class="flex w-1/5 h-full border-2 border-blue-600 border-dashed left"></div>
+        <div class="flex flex-col items-center w-4/5 h-full justify-evenly right">
+            <div id="input-box" class="flex items-center justify-center w-4/5 border-2 border-blue-600 border-dashed top h-1/2 rounded-xl">
+                <div class="flex flex-col items-center justify-center">
+                    <div class="text-2xl font-semibold">Drag Audio here</div>
+                    <div class="">or</div>
+                    <div class="m-4">
+                        <input type="file" class="hidden" id="input-button">
+                        <label for="browse" class="px-4 py-2 font-sans text-white bg-indigo-500 rounded-md cursor-pointer">Browse</label>
+                    </div>
+                </div>
+            </div>
+            <div class="w-4/5 border-2 border-blue-600 border-dashed bottom h-1/2"></div>
+        </div>
     </div>
-</div>
-
-   
-    <?php include "footer.php"; ?>
-
+    <script src="js/function.js"></script>
 </body>
 </html>

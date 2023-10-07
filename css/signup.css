@@ -37,7 +37,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 0
+    margin: 0;
     position:relative;
     bottom:30px;
     
@@ -155,6 +155,7 @@ body{
     font-weight: 900;
     line-height: normal;
 }
+
 .done button
 
     {
@@ -168,6 +169,8 @@ body{
         background-image:url('../assest/Wallpaper\ 2.jpg');
         font-size:18px;
         font-weight: bold;
+        left: 65px;
+        
 
           
           
@@ -178,4 +181,6 @@ body{
     font-size: 13px;
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 50px;
 }

@@ -3,7 +3,8 @@
   margin: 0;
 
 
-
+  cursor: none;
+  cursor:none;
 
 
 }
@@ -88,3 +89,15 @@
 
  
 }
+
+
+.img1{
+  height: 28px;
+  width: auto;
+  position: relative;
+  right: 100px;
+ 
+
+ 
+}
+

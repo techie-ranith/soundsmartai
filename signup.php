@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/siginin.css">
+    <link rel="stylesheet" href="./css/signup.css">
 </head>
 <body>
     <!-- Include a navbar if needed -->
@@ -59,22 +59,34 @@
     <div class="right">
         <div>
             <form action="">
-            <div class="main"><h1>Sign In</h1></div>
-            <div class="email">
-                <label for="">E-mail</label>
+            <div class="main"><h1>Create Your Account</h1>
+            </div><br>
+            <div class="name">
+                <label for=""><b>Name</label></b><br> <br>
                 <input type="text" require>
-            </div>
+            </div><br>
+            <div class="email">
+                <label for=""><b>E-Mail</b></label> <br><br>
+                <input type="text">
+            </div><br>
             <div class="pwd">
-                <label for="">Password</label>
-                <input type="password">
+                <label for=""><b>Password</label></b><br> <br>
+                <input type="password" require>
+            </div><br>
+            <div class="confirm-pwd">
+                <label for=""><b>Confirm Password</label></b><br> <br>
+                <input type="password" require>
+            </div><br>
+            <div class="icons">
+                <!--<div class="icons"><a href="facebook"></a></div>
+                <div class="icons"><a href="email"></a></div>
+                <div class="icons"><a href="apple"></a></div>-->
+                <div class="icon" id="facebook"></div>
+               <div class="icon" id="email"></div>
+              <div class="icon" id="apple"></div>
             </div>
-            <div>
-                <div class="icons"><a href=""></a></div>
-                <div class="icons"><a href=""></a></div>
-                <div class="icons"><a href=""></a></div>
-            </div>
-            <div><button type="submit">Submit</button></div>
-            <div> Don't have an Account?<a href="#">Sign Up</a> </div>
+            <div class="done"><button type="submit">Sign Up</button></div>
+            <div class="noacc"> Already have an account?<a href="#">Sign in</a> </div>
 
             </form>
         </div>

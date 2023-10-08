@@ -24,7 +24,7 @@
 <a class="i" href="./pricing.html">Pricing</a>
 <a class="i" href="#about">About</a>
 <a class="i" href="./siginin.html">Signin</a>
-<a class="i" href="#signup">SignUp</a>
+<a class="i" href="./signup.php">SignUp</a>
 <a href="" class="togle">
 <span class="menu"></span>
 <span class="menu"></span> 

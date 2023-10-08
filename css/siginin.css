@@ -113,7 +113,7 @@ body{
 
 #email {
     background-image: url('../assest/G-Mail.png');
-    width: 62px;
+    /* width: 62px; */
 }
 
 #apple {

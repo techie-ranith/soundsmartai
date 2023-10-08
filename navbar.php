@@ -19,11 +19,11 @@
 
 <a  href="./index.html"><img class="img1" src="./assest/01.png" >    </a>
 
-<a class="i" href="./index.html" >Home</a>
-<a class="i" href="./faq.html">Support</a>
-<a class="i" href="./pricing.html">Pricing</a>
+<a class="i" href="./index.php" >Home</a>
+<a class="i" href="./faq.php">Support</a>
+<a class="i" href="./subscription.php">Pricing</a>
 <a class="i" href="#about">About</a>
-<a class="i" href="./siginin.html">Signin</a>
+<a class="i" href="./siginin.php">Signin</a>
 <a class="i" href="./signup.php">SignUp</a>
 <a href="" class="togle">
 <span class="menu"></span>

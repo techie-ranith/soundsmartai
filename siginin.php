@@ -13,6 +13,9 @@
 <body>
     <!-- Include a navbar if needed -->
     <?php
+    include "cursor.php";
+    ?>
+    <?php
     include "navbar.php";
     ?>
 

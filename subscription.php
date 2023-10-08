@@ -3,6 +3,17 @@
 <head><title>Subscription</title>
 <link rel="stylesheet" href="./css/subscription.css">
 <body>
+
+    <?php
+    include "cursor.php";
+    ?>
+<?php
+        include "navbar.php";
+    ?>
+
+
+
+
     <div class="parent1">
         <div class="parent2">
             <div>
@@ -67,6 +78,7 @@
             <h1>Select a plan</h1>
         </div>
 
+        <?php include "footer.php"; ?>
 
     </div>
 </body>

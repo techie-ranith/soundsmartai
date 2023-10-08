@@ -20,11 +20,16 @@
         <link rel="stylesheet" href="./css/navbar.css">
     </head>
     <body>
-
+    <?php
+    include "cursor.php";
+    ?>
+<?php
+    include "navbar.php";
+    ?>
        
      <!-- TOP BAR -->
    
-     <div class="topbar"> 
+     <!-- <div class="topbar"> 
 
         <a  href="./index.html"><img class="img1" src="./assest/01.png" >    </a>
       
@@ -35,7 +40,7 @@
         <a class="i" href="./siginin.html">Signin</a>
         <a class="i" href="#signup">SignUp</a>
         
-    </div> 
+    </div>  -->
 
 
 
@@ -86,7 +91,7 @@
 
 
 
-        <div class="footer">
+        <!-- <div class="footer">
             <div class="footer-section">
                 <div class="box">Quick Links <br> <br> Pricing <br>SignUp</div>
                 <div class="box">Contact <br> soundsmartai@gmail.com</div>
@@ -96,9 +101,10 @@
                     <div class="icon icon3"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
+        <?php include "footer.php"; ?>
 
 
     </body>

@@ -39,9 +39,15 @@
 <link rel="stylesheet" href="./css/cursor.css">
 </head>
 <body>
+    <?php
+    include "cursor.php";
+    ?>
 
+<?php
+    include "navbar.php";
+    ?>
 
-     <div class="cursor"></div>
+     <!-- <div class="cursor"></div>
      <script type="text/javascript">
         const cursor = document.querySelector(".cursor");
 
@@ -56,7 +62,7 @@
         });
 
     
-     </script>
+     </script> -->
 
 
 
@@ -79,7 +85,7 @@
 
     <!-- TOP BAR -->
  <!-- TOP BAR -->
- <div class="topbar"> 
+ <!-- <div class="topbar"> 
 
     <a  href="./index.html"><img class="img1" src="./assest/01.png" >    </a>
   
@@ -93,7 +99,7 @@
     <span class="menu"></span>
     <span class="menu"></span> 
     <span class="menu"></span>
-</a>
+</a> -->
     
 
 </div> 
@@ -110,7 +116,7 @@
                     <p class="para1">We’re building superhuman systems for transcribing and understanding human speech</p>
                 
                 <div class="bttr">
-                   <a href="./function.html"><button class="tryit" >Try it out</button></a> 
+                   <a href="./function.php"><button class="tryit" >Try it out</button></a> 
                 </div>
             </div>
         </selection>
@@ -310,7 +316,7 @@
 <!-- client impresion end -->
 
 <!-- footer starting -->
-
+<!-- 
 <div class="footer">
     <div class="footer-section">
         <div class="box">Quick Links <br> <br> Pricing <br>SignUp</div>
@@ -321,7 +327,9 @@
             <div class="icon icon3"></div>
         </div>
     </div>
-</div>
+</div> -->
+
+<?php include "footer.php"; ?>
 
 
 

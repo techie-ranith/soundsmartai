@@ -38,9 +38,12 @@
                         // Store user information in the session
                         $_SESSION["user_id"] = $stmt->insert_id;
                         $_SESSION["user_email"] = $email;
-                        
+
+                        // Echo the session id as a JavaScript variable
+                        echo "<script>var sessionId = '$sessionId';</script>";
+
                         // Redirect to a protected area or display a success message
-                        header("Location: welcome.php");
+                        header("Location: function.php");
                         exit();
                     } else {
                         $signupError = "Registration failed: " . $stmt->error;

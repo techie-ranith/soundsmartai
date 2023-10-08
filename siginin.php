@@ -80,7 +80,6 @@
             </div>
             <div class="done"><button type="submit">Sign In</button></div>
             <div class="noacc"> Don't have an Account?<a href="#">Sign Up</a> </div>
-
             </form>
         </div>
     </div>

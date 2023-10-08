@@ -14,13 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $dbPass = 'your_db_password';
     $dbName = 'your_db_name';
 
-    // Create a database connection
-    $conn = new mysqli($dbHost, $dbUser, $dbPass, $dbName);
-
-    // Check for connection errors
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
 
     // Get user inputs from the form
     $email = $_POST['email'];
@@ -32,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         // Query the database to check if the user exists
         $sql = "SELECT id, email, password FROM users WHERE email = ? LIMIT 1";
+        include "sql_db_connection.php";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s", $email);
         $stmt->execute();
@@ -44,8 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             session_start();
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_email'] = $user['email'];
-            require_once
-            header("Location: function.php"); 
+            header("Location: .../function.html");
             exit;
         } else {
             $error = "Invalid email or password.";

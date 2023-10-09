@@ -6,6 +6,27 @@
 
     
 }
+::-webkit-scrollbar{
+    background-color: #000000;
+   width: 10px;
+   
+   
+   
+   }
+   ::-webkit-scrollbar-track{
+   
+     margin-block: 120px;
+     padding: 3;
+   
+   }
+   ::-webkit-scrollbar-thumb{
+   
+     background:  var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
+     border-radius: 60px;
+   
+   }
+   
+   
 
 body{
     background-color: rgb(0, 0, 0);
@@ -113,7 +134,7 @@ body{
 
 #email {
     background-image: url('../assest/G-Mail.png');
-    width: 62px;
+    /* width: 62px; */
 }
 
 #apple {
@@ -150,6 +171,7 @@ line-height: normal;
             font-size: 18px;
             font-weight: bold;
             border: none;
+            cursor: none;
       
       }
 

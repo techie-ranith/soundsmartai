@@ -3,8 +3,7 @@
   margin: 0;
 
 
-  cursor: none;
-  cursor:none;
+  /* cursor: none; */
 
 
 }
@@ -16,8 +15,8 @@
   background-color: black;
   /* overflow: hidden; */
   width: 100%;
-  height:fit-content;
-  top: 0;
+  height:53.5px;
+  
   position: fixed;
   display: flex;
   justify-content: center;
@@ -38,57 +37,8 @@
 
 
 }
-.togle{
- position: absolute;
-  right: 20px;
- display: none;
- flex-direction: column;
- justify-content: space-between;
- width: 30px;
- height: 21px;
- 
-
-}
 
 
- .menu{
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-  margin: 0px 30px 0px 0px;
-
-  
-
-
-  
-}
-@media(max-width:972px){
-  .img1{
-
-    position: relative;
-    margin-right: 500px;
-  
-  }
-  .togle{
-    display: flex;
-  }
-  .i{
-    display: none;
-  }
-
-}
-
-.img1{
-  height: 32px;
-  width: auto;
-  position: relative;
-  right: 100px;
-  
-
-
- 
-}
 
 
 .img1{
@@ -100,4 +50,9 @@
 
  
 }
+
+.topbar2{
+  display: none;
+}
+
 

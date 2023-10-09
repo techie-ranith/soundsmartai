@@ -2,8 +2,12 @@
 /* response to iphone se */
 
 @media (max-width: 375px) {
+  .cursor{
+    display: none;
+  }
   body{
     overflow-x: hidden;
+    cursor:block;
   }
 
   .toptxt{
@@ -200,20 +204,7 @@
 
 
   /*  navbar css  */
-    .img1{
-  
-      position: relative;
-      float: left;
-      margin-left: 460px;
-    
-    }
-    .togle{
-      display: flex;
-      margin-right: 30px;
-    }
-    .i{
-      display: none;
-    }
+ 
   
 
 
@@ -237,8 +228,12 @@
 
 
 @media (max-width: 414px) {
+  .cursor{
+    display: none;
+  }
   body{
     overflow-x: hidden;
+    display: block;
   }
 
   .toptxt{
@@ -432,21 +427,7 @@
 
 
   /*  navbar css  */
-    .img1{
-  
-      position: relative;
-      float: left;
-      margin-left: 460px;
     
-    }
-    .togle{
-      display: flex;
-      margin-right: 0px;
-    }
-    .i{
-      display: none;
-    }
-  
 
 
 }
@@ -458,8 +439,12 @@
 
 
 @media (max-width: 390px) {
+  .cursor{
+    display: none;
+  }
   body{
     overflow-x: hidden;
+    display: block;
   }
 
   .toptxt{
@@ -652,21 +637,7 @@
 
 
 
-  /*  navbar css  */
-    .img1{
   
-      position: relative;
-      float: left;
-      margin-left: 460px;
-    
-    }
-    .togle{
-      display: flex;
-      margin-right: 0px;
-    }
-    .i{
-      display: none;
-    }
   
 
 
@@ -678,8 +649,13 @@
 /* pixel 5 */
 
 @media (max-width: 393px) {
+  .cursor{
+    display: none;
+  }
+
   body{
     overflow-x: hidden;
+    display: block;
   }
 
   .toptxt{
@@ -872,22 +848,6 @@
 
 
 
-  /*  navbar css  */
-    .img1{
-  
-      position: relative;
-      float: left;
-      margin-left: 460px;
-    
-    }
-    .togle{
-      display: flex;
-      margin-right: 0px;
-    }
-    .i{
-      display: none;
-    }
-  
 
 
 }
@@ -902,8 +862,13 @@
 
 
 @media (max-width: 360px) {
+
+  .cursor{
+    display: none;
+  }
   body{
     overflow-x: hidden;
+    display: block;
   }
 
   .toptxt{
@@ -1096,24 +1061,110 @@
 
 
 
-  /*  navbar css  */
-    .img1{
-  
-      position: relative;
-      float: left;
-      margin-left: 460px;
-    
-    }
-    .togle{
-      display: flex;
-      margin-right: 0px;
-    }
-    .i{
-      display: none;
-    }
-  
+
 
 
 }
 
 
+
+
+
+/* navbar css */
+/* @media (maxwidth:851px) */
+@media (max-width: 851px)
+
+{
+  
+  .topbar{
+    display: none;
+  }
+  .topbar2{
+    background-color: black;
+  width: 100%;
+  height:53.5px;
+  top: 0;
+  position: fixed;
+  display: flex;
+  z-index: 1000;
+  }
+ 
+  .img2{
+    height: 28px;
+    width: auto;
+    position: relative;
+    padding: 0px;
+    margin-top: 12px;
+    margin-left: 20px;
+    float: left;
+   
+  }
+  .floatl{
+      width: 30%;
+      float: left;
+  }
+  .togle{
+    /* position: aibsolute; */
+    margin-top: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+    height: 27px;
+    float: right;
+    width: 25px;
+    margin-right: 52px;
+    
+  }
+  .bar{
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+ .floatr{
+  width: 70%;
+  float: right;
+ }
+
+  a.q{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 13px;
+
+  }
+  
+  .qw{
+    height: max-content;
+    
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: none;
+    
+  }
+.w{
+  margin-top: 16px;
+  margin-right: 12px;
+  float: right;
+  background-color:rgb(0, 0, 0,0.8);
+  border-radius: 30px;
+ 
+}
+.close{
+  width:79px ;
+  height: 60px;
+  position: relative;
+  left: 9px;
+
+}
+
+
+}

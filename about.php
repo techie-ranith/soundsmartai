@@ -12,10 +12,14 @@
 
 <!-- animation -->
 
-
-
 </head>
 
+
+<body>
+
+    <?php
+    include "cursor.php";
+    ?>
 
 
    
@@ -123,6 +127,7 @@
     </div>
 </div>
 
+<?php include "footer.php"; ?>
 
 
 </body>

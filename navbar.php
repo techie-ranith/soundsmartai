@@ -22,7 +22,7 @@
 <a class="i" href="./index.php" >Home</a>
 <a class="i" href="./faq.php">Support</a>
 <a class="i" href="./subscription.php">Pricing</a>
-<a class="i" href="#about">About</a>
+<a class="i" href="./about.php">About</a>
 <a class="i" href="./siginin.php">Signin</a>
 <a class="i" href="./signup.php">SignUp</a>
 

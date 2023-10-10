@@ -76,7 +76,7 @@
 
 }
 
-.top1{
+.top01{
   position: relative;
   padding-top: 0px;
   font-size: 24px;
@@ -84,7 +84,7 @@
   width: 300px;
 }
 
-  .top{
+  .tops{
     font-size:20px;
     color: bisque;  
     width: 200px;
@@ -93,7 +93,7 @@
   .dec{
     font-size: 8px;
   }
-  .section03 .bottom{
+  .section03 .bottom1{
    position: relative;
    padding-left: 50px;
    display: grid;
@@ -302,7 +302,7 @@
 
 }
 
-.top1{
+.top01{
   position: relative;
   padding-top: 0px;
   font-size: 26px;
@@ -310,7 +310,7 @@
   width: 300px;
 }
 
-  .top{
+  .tops{
     font-size:20px;
     color: bisque;  
     width: 200px;

@@ -235,6 +235,11 @@ width: 500px;
 
 
 }
+@media(max-width: 1300px) and ( min-width: 430px){
+  .container3{
+    display: none;
+  }
+
 .container03
 {
   height: max-content;
@@ -270,7 +275,7 @@ width: 500px;
 }
 
 
-
+}
 
 @media(min-width:1300px){
   .container03{
@@ -280,7 +285,7 @@ width: 500px;
 
 
 }
-@media(max-width:1300px){
+@media(max-width:1300px ){
   .container3{
     display: none;
   

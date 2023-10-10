@@ -17,8 +17,13 @@
 </head>
 <body>
    
+<?php
+    include "cursor.php";
+    ?>
 
-
+<?php
+    include "navbar.php";
+    ?>
 
 
 <br><br><br>   
@@ -63,7 +68,7 @@
 </div>
 
 <div>
-    <img src="image 25.png" height="200" width="250" style="float: right;width:300px;height:300px;">
+    <img src="./assest/image 25.png" height="200" width="250" style="float: right;width:300px;height:300px;">
 </div>
 
 <div class="container4">
@@ -111,7 +116,7 @@
 </div>
 
 <div>
-    <img src="image 24.png" height="200" width="250">
+    <img src="./assest/image 24.png" height="200" width="250">
 </div>
 
 <div class="container8">
@@ -127,7 +132,7 @@
 </div>
 
 
-
+<?php include "footer.php"; ?>
 
 
 

@@ -1,0 +1,129 @@
+body {
+  background: linear-gradient(99deg, #000 -32.65%, #292C64 39.57%, rgba(18, 94, 67, 0.65) 80.84%, #202255 142.74%, #000 187.45%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0; 
+  overflow: hidden; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(99deg, #000 -32.65%, #292C64 39.57%, rgba(18, 94, 67, 0.65) 80.84%, #202255 142.74%, #000 187.45%);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.details{
+  color: azure;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+.select{
+  color: azure;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  padding-left: 80px;
+ 
+}
+
+svg {
+  width: 1750px; 
+  height: auto;
+  
+}
+
+
+form {
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 22px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+input {
+  border-radius: 31px;
+border: 1px solid #306e2dec;
+background: linear-gradient(99deg, #0000007a -32.65%, #292c6400 39.57%, rgba(18, 94, 67, 0.682) 80.84%, #20225575 142.74%, #00000072 187.45%);;
+mix-blend-mode: overlay;
+box-shadow: 0px 4px 4px 0px rgba(208, 194, 194, 0.081);
+width: 660px;
+height: 40px;
+flex-shrink: 0;
+color: whitesmoke;
+font-size: 18px;
+}
+
+input:hover{opacity: 0.6;}
+
+
+.button{
+  border-radius: 18px;
+  background: var(--primary-50, #EAFEF1);
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.button:hover{
+  box-shadow: 5px 5px 10px rgba(29, 155, 240,0.2);
+}
+
+.button:active{
+     
+     opacity: 0.7;
+     
+   }
+
+   .plan-container {
+    width: 50%;
+    margin: auto;
+  }
+  
+ 
+  
+  .plan-card {
+    width: 320px;
+  height: 460px;
+  flex-shrink: 0;
+    border-radius: 28px;
+    border: 1px solid #000;
+    background: #ffffff69;
+    mix-blend-mode: soft-light;
+    box-shadow: 0px 4px 50px 8px rgba(0, 0, 0, 0.112) inset;
+    padding-left: 1px;
+    padding-right: 1px;}
+  
+  .plan-name {
+    text-align: center;
+    font-size: 38px;
+  }
+  
+  .plan-price {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .plan-features {
+    
+    font-size: 25px;
+    width: 250px;
+  }
+  
+  .plan-feature {
+    
+  }
+  

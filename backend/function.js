@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const dropZone = document.getElementById("input-box");
-    const fileInput = document.getElementById("input-box");
+    const fileInput = document.getElementById("input-button");
 
     // Handle file drop
     dropZone.addEventListener("dragover", (e) => {
@@ -17,17 +17,28 @@ document.addEventListener("DOMContentLoaded", () => {
         dropZone.classList.remove("drag-over");
 
         const file = e.dataTransfer.files[0];
-        handleAudioFile(file);
-        var box = document.getElementById("input")
+        if (file) {
+            comsole.log("file loaded sucessfully")
+            const allowedTypes = ["/mp3"];
+            if (allowedTypes.includes(selectedFile.type)) {
+                // File type is allowed, you can handle it here
+                console.log("Selected file type is allowed:", selectedFile.name);
+            } else {
+                // File type is not allowed, you can inform the user
+                alert("Please select a valid file type (jpg, jpeg, png, pdf).");
+                // Clear the file input (optional)
+                event.target.value = null;
+            }
+        }
+        var box = document.getElementById("box");
         const newContent = `
         <div id="box" class="flex flex-col items-center justify-center">
-        <div class="bg-center bg-no-repeat icon" style="background-image: url('assest/file_icon.png');"></div>
-        <div class="filename"></div>
-        <div class="submit"><button type="submit">Submit</button></div>
+            <div class="bg-center bg-no-repeat icon" style="background-image: url('assest/file_icon.png');"></div>
+            <div class="filename">${file.name}</div>
+            <div class="submit"><button id="submit-button" type="submit">Submit</button></div>
         </div>
         `;
-        box[0].innerHTML = newContent
-        dropZone.innerHTML = `<div class="text-2xl font-semibold">Audio file selected: ${file.name}</div>`;
+        box.innerHTML = newContent;
     });
 
     // Handle file selection
@@ -45,24 +56,31 @@ document.addEventListener("DOMContentLoaded", () => {
         // Check audio duration
         audio.addEventListener("loadedmetadata", () => {
             const duration = audio.duration;
-            if (duration <= 60) { // Restrict audio length to 60 seconds
+            if (duration <= 1800) { // Restrict audio length to 30 mins
                 audioDurationDisplay.textContent = duration.toFixed(2);
-                // Send the audio to the server via AJAX or another method
-                sendAudioToServer(file);
+
+                // Listen for the submit button click event within the changed content
+                const submitButton = document.getElementById("submit-button");
+                submitButton.addEventListener("click", () => {
+                    // Send the audio to the server via AJAX or another method
+                    sendAudioToServer(file);
+                });
             } else {
-                alert("Audio duration exceeds 60 seconds.");
+                alert("Audio duration exceeds 30 minutes.");
             }
         });
     }
 
     // Function to send audio to the server
     function sendAudioToServer(file) {
-        // Assuming you have a PHP script to handle the server-side processing
-        // You can use AJAX to send the audio data to the server-side PHP script.
-        // Example using fetch:
-        fetch("upload.php", {
+        
+        var jsVariable = "<?php echo $phpVariable; ?>";
+        fetch("db_connections/realtimedb_fb.js", {
             method: "POST",
             body: file,
+            headers: {
+                "sessionId": sessionId,
+            },
         })
         .then((response) => response.text())
         .then((data) => {

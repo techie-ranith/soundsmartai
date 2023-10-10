@@ -1,6 +1,5 @@
 <?php
-
-// Check if the user is already logged in, and if so, redirect them to a welcome page
+    
 if (isset($_SESSION['user_id'])) {
     header("Location: function.php");
     exit;
@@ -8,13 +7,6 @@ if (isset($_SESSION['user_id'])) {
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Replace these variables with your database connection details
-    $dbHost = 'your_db_host';
-    $dbUser = 'your_db_username';
-    $dbPass = 'your_db_password';
-    $dbName = 'your_db_name';
-
-
     // Get user inputs from the form
     $email = $_POST['email'];
     $password = $_POST['password'];

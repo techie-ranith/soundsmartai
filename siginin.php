@@ -12,50 +12,8 @@
 </head>
 <body>
     <!-- Include a navbar if needed -->
-    <?php
-    include "cursor.php";
-    ?>
-    <?php
-    include "navbar.php";
-    ?>
-
-<!-- <h1>Sign In</h1>
-    <div class="sigin">
-        <img src="./assest/signin.jpg" alt="">
-    
-
-      
-        <label for="username">Username</label><br>
-        <input type="text" class="use" id="username" placeholder="Enter here ..."><br><br>
-
-        <label for="password">Password</label><br>
-        <input type="password" class="pas" id="password" placeholder="Enter Password here ..."><br>
-
-        <div class="social-icons">
-            <a href="mailto:youremail@gmail.com">
-                <img src="./assest/G-mail.png" alt="Gmail" width="32" height="32">
-            </a>
-            <a href="https://www.facebook.com/yourpage">
-                <img src="./assest/Facebook.png" alt="Facebook" width="32" height="32">
-            </a>
-            <a href="https://apps.apple.com/us/app/your-app-name/id1234567890">
-                <img src="./assest/Apple.png" alt="Apple App" width="32" height="32">
-            </a>
-        </div>
-
-        <div>
-            <button type="submit" class="btn">SIGN IN</button>
-        </div>
-
-        <div class="register-link">
-            Don't have an Account? <a href="#">Sign Up</a>
-        </div>
-    </div> -->
-
-
-
-
-
+    <?php    include "cursor.php";?>
+    <?php    include "navbar.php";?>
 
 <div class="container">
     <div class="left">
@@ -88,26 +46,6 @@
     </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Include a footer if needed -->
     <?php include "footer.php"; ?>
 
 </body>

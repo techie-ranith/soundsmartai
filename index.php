@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
     <title>Soundsmartai</title>
     <!-- LOGO -->
     <link rel="icon" href="./assest/01.png">
@@ -32,53 +35,109 @@
 
 <link rel="stylesheet" href="./css/media-index.css">
 
-<link rel="stylesheet" href="./css/animation.css">
+<link rel="stylesheet" href="./css/media-index.css">
+<link rel="stylesheet" href="./css/cursor.css">
 </head>
 <body>
+    <?php
+    include "cursor.php";
+    ?>
+
+<?php
+    include "navbar.php";
+    ?>
+
+     <!-- <div class="cursor"></div>
+     <script type="text/javascript">
+        const cursor = document.querySelector(".cursor");
+
+        document.addEventListener("mousemove", (e) => {
+            let x=e.pageX;
+            let y=e.pageY;
+
+            cursor.style.top = y+ "px";
+            cursor.style.left= x + "px";
+            
+
+        });
+
+    
+     </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- TOP BAR -->
  <!-- TOP BAR -->
- <div class="topbar"> 
+ <!-- <div class="topbar"> 
 
     <a  href="./index.html"><img class="img1" src="./assest/01.png" >    </a>
   
     <a class="i" href="./index.html" >Home</a>
     <a class="i" href="./faq.html">Support</a>
-    <a class="i" href="./pricing.html">Pricing</a>
+    <a class="i" href="./subscription.html">Pricing</a>
     <a class="i" href="./about.html">About</a>
-    <a class="i" href="./siginin.html">Signin</a>
-    <a class="i" href="#signup">SignUp</a>
+    <a class="i" href="./siginin.php">Signin</a>
+    <a class="i" href="./signup.php">SignUp</a>
+  <a href="" class="togle">
+    <span class="menu"></span>
+    <span class="menu"></span> 
+    <span class="menu"></span>
+</a> -->
     
+
 </div> 
-    <div class="contain2">
+
+    <div class="contain21">
        <div class="frontpic">
         <selection class="toptxt">
             <div class="maxwidth">
-                <div >
+                <div class="wo" >
                     <p >CONVERT <span class="Efficient">EFFICIENT</span><br>
                         SPEACH TO TEXT<br></p>
                 </div>
-                <div class="contain3">
+               
                     <p class="para1">We’re building superhuman systems for transcribing and understanding human speech</p>
-                </div>
-                <div>
+                
+                <div class="bttr">
                    <a href="./function.php"><button class="tryit" >Try it out</button></a> 
                 </div>
             </div>
         </selection>
     </div>
 </div>
+
     <!-- end of front pages -->
     <!-- 2nd secctor -->
 
-<div class="contain2">
-    
+      
+
+
+  <div class="contain2">
+       
                 <div class="playbut"></div>
                 <div class="wave"></div>
                 <div class="hi">Hi <br> There ...</div>
             
               
 
-</div>   
+   </div>    
 
 
 
@@ -87,8 +146,7 @@
 
 
 <div class="container3">
-
-
+  
 <div class="section3">
     <div class="top1">Building AI Systems that Convert Speech to Text</div>
     <div class="bottom">
@@ -117,11 +175,74 @@
             <div class="top">Real Time Transcription</div>
             <div class="dec">This feature enables immediate conversion of spoken words into text during live conversations, presentations, or events. It ensures that users can access written transcripts in real-time, making it invaluable for accessibility, note-taking, and real-time decision-making in various contexts.</div>
         </div>
+        <div class="gif">
+        <img src="./assest/05.gif" alt="">
+</div>
+        
     </div>
+    
 </div>
 
-<div class="gif"></div>
 </div>
+
+
+
+
+<div class="container03">
+
+
+    <div class="section03">
+        <div class="top01">Building AI Systems that Convert Speech to Text</div>
+        <div class="bottom1">
+            <div class="text1">
+                <div class="tops">Human-level accuracy</div>
+                <div class="dec">Our cutting-edge AI speech-to-text tool boasts a remarkable human-level accuracy in converting spoken language into text. With advanced neural networks and natural language processing algorithms, it effortlessly transcribes spoken words with unparalleled precision.</div>
+            </div>
+            <div class="text2">
+                <div class="tops">Versertility</div>
+                <div class="dec">The AI speech-to-text tool boasts exceptional versatility with its robust support for multiple audio formats. This cutting-edge technology seamlessly converts spoken words from various file types into accurate and easily editable text, making it an invaluable asset for professionals across industries seeking efficient and comprehensive transcription solutions.</div>
+            </div>
+            <div class="text3">
+                <div class="tops">multiple language support</div>
+                <div class="dec">The cutting-edge AI speech-to-text tool offers seamless multilingual support, revolutionizing communication across borders. With its remarkable ability to convert spoken words into text in numerous languages, it breaks down language barriers and enhances accessibility for global users Learn more. </div>
+            </div>
+            <div class="right"></div>
+            <div class="text4">
+                <div class="tops">multiple ASRM’s</div>
+                <div class="dec">Sound Smart AI uses Automatic Speech Recognition models that convert speech to text with deferent accuracies and capabilities Learn More. </div>
+            </div>
+            <div class="text5">
+                <div class="tops">Noise Reduction</div>
+                <div class="dec">The AI speech-to-text tool boasts an exceptional Noise Reduction feature, setting a new standard in accurate transcription. Its cutting-edge algorithms filter out ambient noise and distractions, ensuring crystal-clear conversion of spoken words into text. Users can now effortlessly transcribe audio in even the most challenging acoustic environments.</div>
+            </div>
+            <div class="text6">
+                <div class="tops">Real Time Transcription</div>
+                <div class="dec">This feature enables immediate conversion of spoken words into text during live conversations, presentations, or events. It ensures that users can access written transcripts in real-time, making it invaluable for accessibility, note-taking, and real-time decision-making in various contexts.</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         
@@ -132,15 +253,32 @@
     <div class="soundmartai"> 
         <p class="soundtopic">SOUND SMART ASR</p>
         <p class="sounddisc">Sound smart AI is a highly advanced Automatic Speech Recognition (ASR) system designed to transcribe spoken language into written text. It utilizes a deep neural network architecture, specifically a combination of convolutional and recurrent layers, to process audio input and generate accurate transcriptions. The ASR system is trained on vast amounts of multilingual and multitask supervised data, making it proficient in recognizing various languages and accommodating diverse applications. Soundsmart’s impressive capabilities extend to real-time transcription, making it an invaluable tool for applications like transcription services, voice assistants, and more, thanks to its robust, state-of-the-art ASR technology.</p>
-
+        
     </div>
 
-    <div class="mic">
+    <div class="imgasi">
 
+        <img src="./assest/06.png" class="imgs" alt="">
+
+     </div>
+
+        
     </div>
 
 
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- page5 strating -->
 
 <div class="back4"> 
@@ -183,7 +321,7 @@
 <!-- client impresion end -->
 
 <!-- footer starting -->
-
+<!-- 
 <div class="footer">
     <div class="footer-section">
         <div class="box">Quick Links <br> <br> Pricing <br>SignUp</div>
@@ -194,7 +332,9 @@
             <div class="icon icon3"></div>
         </div>
     </div>
-</div>
+</div> -->
+
+<?php include "footer.php"; ?>
 
 
 

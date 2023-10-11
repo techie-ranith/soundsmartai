@@ -1,0 +1,1171 @@
+
+/* response to iphone se */
+
+@media (max-width: 375px) {
+  .cursor{
+    display: none;
+  }
+  body{
+    overflow-x: hidden;
+    cursor:block;
+  }
+
+  .toptxt{
+    font-size: 44px;
+  }
+  
+.Efficient{
+  font-size: 60px;
+}
+
+.para1{
+  font-size: 13px;
+  width: 270px;
+  
+  
+}
+.tryit{
+  font-size: 15px;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top: 70px;
+  left: 10px;
+}
+  
+
+/* ////////////////////////////// */
+/* section 2 */
+
+.hi{
+  font-size: 44px;
+  font-weight: 900;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  position: relative;
+  top :200px;
+  align-items: center;
+
+}
+
+.wave{
+  position: relative;
+  top: 50px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  width: 180px;
+  height: 50px;
+  position: relative;
+  left: 130px;
+  top: 200px;
+}
+.playbut{
+  height: 70px;
+  width: 70px;
+  position: relative;
+  
+}
+
+
+/* section3 */
+.section3{
+  margin-bottom: 250px;
+  display: none;
+
+}
+
+.top01{
+  position: relative;
+  padding-top: 0px;
+  font-size: 24px;
+  padding-left: 20px;
+  width: 300px;
+}
+
+  .tops{
+    font-size:20px;
+    color: bisque;  
+    width: 200px;
+   
+  }
+  .dec{
+    font-size: 8px;
+  }
+  .section03 .bottom1{
+   position: relative;
+   padding-left: 50px;
+   display: grid;
+   grid-auto-flow: column;
+   overflow-x: auto;
+   gap: 30px;
+   padding-bottom: 60px;
+   padding-right: 50px;
+
+
+  }
+  
+  .section03{
+    padding: 0%;
+    height: 90vh;
+  }
+  .text6{
+
+    padding-right: 5px;
+  }
+
+  .maxwidth{
+    width: 300px;
+  }
+
+  .soundtopic{
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    padding-top: 0;
+    left: 0px;
+    width: 260px;
+   right: 690px;
+   padding-bottom: 7px;
+  }
+  .sounddisc{
+    font-size: 9px;
+    position: relative;
+    left: 0px;
+    width: 200px;
+    right: 690px;
+    padding: 0%;
+    
+  }
+
+  .soundmartai{
+    margin-left: 0px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50%;
+   
+  }
+
+
+  .back3{
+    width: 375px;
+    height: 100vh;
+    
+  }
+
+  .imgasi{
+    height: 30px;
+    width: 30px;
+  }
+  .imgs{
+    height: 100px;
+    width: 97px;
+    position: relative;
+   left: 230px;
+   bottom: 150px;
+  }
+  .flex3{
+    overflow-x: auto;
+    font-size: 18px;
+    width: 300px;
+    height:max-content;
+    
+  }
+  .clientimpression{
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    padding-top: 50%;
+    padding-bottom: 0px;
+  }
+
+  .back4{
+    height: 100vh;
+    width: 375px;
+  }
+
+  .footer{
+    width: 375px;
+  }
+  .footer-section{
+    font-size: 11px;
+  }
+   .box3{
+  display: flex;
+  flex-direction: row;
+
+  }
+
+
+
+  /*  navbar css  */
+ 
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*iphone xr response  */
+
+
+
+
+
+
+
+@media (max-width: 414px) {
+  .cursor{
+    display: none;
+  }
+  body{
+    overflow-x: hidden;
+    display: block;
+  }
+
+  .toptxt{
+    font-size: 54px;
+  }
+  
+.Efficient{
+  font-size: 68px;
+}
+
+.para1{
+  font-size: 18px;
+  width: 270px;
+  
+  
+}
+.tryit{
+  font-size: 20px;
+  width: 160px;
+  height: 60px;
+  position: relative;
+  top: 70px;
+  left: 10px;
+}
+  
+
+/* ////////////////////////////// */
+/* section 2 */
+
+.hi{
+  font-size: 54px;
+  font-weight: 900;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  position: relative;
+  top :200px;
+  align-items: center;
+
+}
+
+.wave{
+  position: relative;
+  top: 50px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  width: 190px;
+  height: 70px;
+  position: relative;
+  left: 130px;
+  top: 200px;
+}
+.playbut{
+  height: 90px;
+  width: 90px;
+  position: relative;
+  
+}
+
+
+/* section3 */
+.section3{
+  margin-bottom: 250px;
+  display: none;
+
+}
+
+.top01{
+  position: relative;
+  padding-top: 0px;
+  font-size: 26px;
+  padding-left: 20px;
+  width: 300px;
+}
+
+  .tops{
+    font-size:20px;
+    color: bisque;  
+    width: 200px;
+   
+  }
+  .dec{
+    font-size: 8px;
+  }
+  .section03 .bottom{
+   position: relative;
+   padding-left: 50px;
+   display: grid;
+   grid-auto-flow: column;
+   overflow-x: auto;
+   gap: 30px;
+   padding-bottom: 60px;
+   padding-right: 50px;
+
+
+  }
+ 
+  
+  .section03{
+    padding: 0%;
+    height: 90vh;
+  }
+  .text6{
+
+    padding-right: 5px;
+  }
+
+  .maxwidth{
+    width: 300px;
+  }
+
+  .soundtopic{
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    padding-top: 0;
+    left: 0px;
+    width: 260px;
+   right: 690px;
+   padding-bottom: 7px;
+  }
+  .sounddisc{
+    font-size: 9px;
+    position: relative;
+    left: 0px;
+    width: 200px;
+    right: 690px;
+    padding: 0%;
+    
+  }
+
+  .soundmartai{
+    margin-left: 0px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50%;
+   
+  }
+
+
+  .back3{
+    width: 414px;
+    height: 100vh;
+    
+  }
+
+  
+  .imgs{
+    height: 130px;
+    width: 130px;
+    position: relative;
+   left: 240px;
+   bottom: 150px;
+  }
+  .flex3{
+    overflow-x: auto;
+    font-size: 18px;
+    width: 300px;
+    height:max-content;
+    
+  }
+  .clientimpression{
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    padding-top: 50%;
+    padding-bottom: 0px;
+  }
+
+  .back4{
+    height: 100vh;
+    width: 375px;
+  }
+
+  .footer{
+    width: 375px;
+  }
+  .footer-section{
+    font-size: 11px;
+  }
+   .box3{
+  display: flex;
+  flex-direction: row;
+
+  }
+
+
+
+  /*  navbar css  */
+    
+
+
+}
+
+
+
+/*iphone 12 pro  */
+
+
+
+@media (max-width: 390px) {
+  .cursor{
+    display: none;
+  }
+  body{
+    overflow-x: hidden;
+    display: block;
+  }
+
+  .toptxt{
+    font-size: 51px;
+  }
+  
+.Efficient{
+  font-size: 63px;
+}
+
+.para1{
+  font-size: 18px;
+  width: 270px;
+  
+  
+}
+.tryit{
+  font-size: 20px;
+  width: 160px;
+  height: 60px;
+  position: relative;
+  top: 70px;
+  left: 10px;
+}
+  
+
+/* ////////////////////////////// */
+/* section 2 */
+
+.hi{
+  font-size: 54px;
+  font-weight: 900;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  position: relative;
+  top :200px;
+  align-items: center;
+
+}
+
+.wave{
+  position: relative;
+  top: 50px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  width: 190px;
+  height: 70px;
+  position: relative;
+  left: 130px;
+  top: 200px;
+}
+.playbut{
+  height: 90px;
+  width: 90px;
+  position: relative;
+  
+}
+
+
+/* section3 */
+.section3{
+  margin-bottom: 250px;
+  display: none;
+
+}
+
+.top1{
+  position: relative;
+  padding-top: 0px;
+  font-size: 26px;
+  padding-left: 20px;
+  width: 300px;
+}
+
+  .top{
+    font-size:20px;
+    color: bisque;  
+    width: 200px;
+   
+  }
+  .dec{
+    font-size: 8px;
+  }
+  .section03 .bottom{
+   position: relative;
+   padding-left: 50px;
+   display: grid;
+   grid-auto-flow: column;
+   overflow-x: auto;
+   gap: 30px;
+   padding-bottom: 60px;
+   padding-right: 50px;
+
+
+  }
+  
+  .section03{
+    padding: 0%;
+    height: 90vh;
+  }
+  .text6{
+
+    padding-right: 5px;
+  }
+
+  .maxwidth{
+    width: 300px;
+  }
+
+  .soundtopic{
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    padding-top: 0;
+    left: 0px;
+    width: 260px;
+   right: 690px;
+   padding-bottom: 7px;
+  }
+  .sounddisc{
+    font-size: 9px;
+    position: relative;
+    left: 0px;
+    width: 200px;
+    right: 690px;
+    padding: 0%;
+    
+  }
+
+  .soundmartai{
+    margin-left: 0px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50%;
+   
+  }
+
+
+  .back3{
+    width: 390px;
+    height: 100vh;
+    
+  }
+
+  
+  .imgs{
+    height: 130px;
+    width: 130px;
+    position: relative;
+   left: 240px;
+   bottom: 150px;
+  }
+  .flex3{
+    overflow-x: auto;
+    font-size: 18px;
+    width: 300px;
+    height:max-content;
+    
+  }
+  .clientimpression{
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    padding-top: 50%;
+    padding-bottom: 0px;
+  }
+
+  .back4{
+    height: 100vh;
+    width: 375px;
+  }
+
+  .footer{
+    width: 375px;
+  }
+  .footer-section{
+    font-size: 11px;
+  }
+   .box3{
+  display: flex;
+  flex-direction: row;
+
+  }
+
+
+
+  
+  
+
+
+}
+
+
+
+
+/* pixel 5 */
+
+@media (max-width: 393px) {
+  .cursor{
+    display: none;
+  }
+
+  body{
+    overflow-x: hidden;
+    display: block;
+  }
+
+  .toptxt{
+    font-size: 51px;
+  }
+  
+.Efficient{
+  font-size: 63px;
+}
+
+.para1{
+  font-size: 18px;
+  width: 270px;
+  
+  
+}
+.tryit{
+  font-size: 20px;
+  width: 160px;
+  height: 60px;
+  position: relative;
+  top: 70px;
+  left: 10px;
+}
+  
+
+/* ////////////////////////////// */
+/* section 2 */
+
+.hi{
+  font-size: 54px;
+  font-weight: 900;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  position: relative;
+  top :200px;
+  align-items: center;
+
+}
+
+.wave{
+  position: relative;
+  top: 50px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  width: 190px;
+  height: 70px;
+  position: relative;
+  left: 130px;
+  top: 200px;
+}
+.playbut{
+  height: 90px;
+  width: 90px;
+  position: relative;
+  
+}
+
+
+/* section3 */
+.section3{
+  margin-bottom: 250px;
+  display: none;
+
+}
+
+.top1{
+  position: relative;
+  padding-top: 0px;
+  font-size: 26px;
+  padding-left: 20px;
+  width: 300px;
+}
+
+  .top{
+    font-size:20px;
+    color: bisque;  
+    width: 200px;
+   
+  }
+  .dec{
+    font-size: 8px;
+  }
+  .section03 .bottom{
+   position: relative;
+   padding-left: 50px;
+   display: grid;
+   grid-auto-flow: column;
+   overflow-x: auto;
+   gap: 30px;
+   padding-bottom: 60px;
+   padding-right: 50px;
+
+
+  }
+  
+  .section03{
+    padding: 0%;
+    height: 90vh;
+  }
+  .text6{
+
+    padding-right: 5px;
+  }
+
+  .maxwidth{
+    width: 300px;
+  }
+
+  .soundtopic{
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    padding-top: 0;
+    left: 0px;
+    width: 260px;
+   right: 690px;
+   padding-bottom: 7px;
+  }
+  .sounddisc{
+    font-size: 9px;
+    position: relative;
+    left: 0px;
+    width: 200px;
+    right: 690px;
+    padding: 0%;
+    
+  }
+
+  .soundmartai{
+    margin-left: 0px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50%;
+   
+  }
+
+
+  .back3{
+    width: 393px;
+    height: 100vh;
+    
+  }
+
+  
+  .imgs{
+    height: 130px;
+    width: 130px;
+    position: relative;
+   left: 240px;
+   bottom: 150px;
+  }
+  .flex3{
+    overflow-x: auto;
+    font-size: 18px;
+    width: 300px;
+    height:max-content;
+    
+  }
+  .clientimpression{
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    padding-top: 50%;
+    padding-bottom: 0px;
+  }
+
+  .back4{
+    height: 100vh;
+    width: 375px;
+  }
+
+  .footer{
+    width: 375px;
+  }
+  .footer-section{
+    font-size: 11px;
+  }
+   .box3{
+  display: flex;
+  flex-direction: row;
+
+  }
+
+
+
+
+
+}
+
+
+
+/* galaxy s8 */
+
+
+
+
+
+
+@media (max-width: 360px) {
+
+  .cursor{
+    display: none;
+  }
+  body{
+    overflow-x: hidden;
+    display: block;
+  }
+
+  .toptxt{
+    font-size: 48px;
+  }
+  
+.Efficient{
+  font-size: 59px;
+}
+
+.para1{
+  font-size: 18px;
+  width: 270px;
+  
+  
+}
+.tryit{
+  font-size: 20px;
+  width: 160px;
+  height: 60px;
+  position: relative;
+  top: 70px;
+  left: 10px;
+}
+  
+
+/* ////////////////////////////// */
+/* section 2 */
+
+.hi{
+  font-size: 54px;
+  font-weight: 900;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  position: relative;
+  top :200px;
+  align-items: center;
+
+}
+
+.wave{
+  position: relative;
+  top: 50px;
+  left: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  width: 190px;
+  height: 70px;
+  position: relative;
+  left: 130px;
+  top: 200px;
+}
+.playbut{
+  height: 90px;
+  width: 90px;
+  position: relative;
+  
+}
+
+
+/* section3 */
+.section3{
+  margin-bottom: 250px;
+  display: none;
+
+}
+
+.top1{
+  position: relative;
+  padding-top: 0px;
+  font-size: 26px;
+  padding-left: 20px;
+  width: 300px;
+}
+
+  .top{
+    font-size:20px;
+    color: bisque;  
+    width: 200px;
+   
+  }
+  .dec{
+    font-size: 8px;
+  }
+  .section03 .bottom{
+   position: relative;
+   padding-left: 50px;
+   display: grid;
+   grid-auto-flow: column;
+   overflow-x: auto;
+   gap: 30px;
+   padding-bottom: 60px;
+   padding-right: 50px;
+
+
+  }
+  
+  .section03{
+    padding: 0%;
+    height: 90vh;
+  }
+  .text6{
+
+    padding-right: 5px;
+  }
+
+  .maxwidth{
+    width: 300px;
+  }
+
+  .soundtopic{
+    font-size: 26px;
+    font-weight: 700;
+    position: relative;
+    padding-top: 0;
+    left: 0px;
+    width: 260px;
+   right: 690px;
+   padding-bottom: 7px;
+  }
+  .sounddisc{
+    font-size: 9px;
+    position: relative;
+    left: 0px;
+    width: 200px;
+    right: 690px;
+    padding: 0%;
+    
+  }
+
+  .soundmartai{
+    margin-left: 0px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 50%;
+   
+  }
+
+
+  .back3{
+    width: 360px;
+    height: 100vh;
+    
+  }
+
+  
+  .imgs{
+    height: 130px;
+    width: 130px;
+    position: relative;
+   left: 227px;
+   bottom: 150px;
+  }
+  .flex3{
+    overflow-x: auto;
+    font-size: 18px;
+    width: auto;
+    height:max-content;
+    
+  }
+  .clientimpression{
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 360px;
+    padding-top: 50%;
+    padding-bottom: 0px;
+  }
+
+  .back4{
+    height: 100vh;
+    width: 360px;
+  }
+
+  .footer{
+    width: 360px;
+  }
+  .footer-section{
+    font-size: 11px;
+  }
+   .box3{
+  display: flex;
+  flex-direction: row;
+
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
+/* navbar css */
+/* @media (maxwidth:851px) */
+@media (max-width: 851px)
+
+{
+  
+  .topbar{
+    display: none;
+  }
+  .topbar2{
+    background-color: black;
+  width: 100%;
+  height:53.5px;
+  top: 0;
+  position: fixed;
+  display: flex;
+  z-index: 1000;
+  }
+ 
+  .img2{
+    height: 28px;
+    width: auto;
+    position: relative;
+    padding: 0px;
+    margin-top: 12px;
+    margin-left: 20px;
+    float: left;
+   
+  }
+  .floatl{
+      width: 30%;
+      float: left;
+  }
+  .togle{
+    /* position: aibsolute; */
+    margin-top: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+    height: 27px;
+    float: right;
+    width: 25px;
+    margin-right: 52px;
+    
+  }
+  .bar{
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+ .floatr{
+  width: 70%;
+  float: right;
+ }
+
+  a.q{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 13px;
+
+  }
+  
+  .qw{
+    height: max-content;
+    
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: none;
+    
+  }
+.w{
+  margin-top: 16px;
+  margin-right: 12px;
+  float: right;
+  background-color:rgb(0, 0, 0,0.8);
+  border-radius: 30px;
+ 
+}
+.close{
+  width:79px ;
+  height: 60px;
+  position: relative;
+  left: 9px;
+
+}
+
+
+}

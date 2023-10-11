@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/function.css">
+    <link rel="stylesheet" href="./css/function.css">
     <title>Document</title>
 </head>
     <?php include "navbar.php"; ?>
-    
-<body class="text-white bg-black">
 
-    <div class="flex items-center justify-center h-screen container1">
+     <?php
+    include "cursor.php";
+    ?>
+<body class="text-white bg-black ">
+
+    <div class="flex items-center justify-center h-screen container1 " id="contain01">
         <div class="flex flex-col items-center w-1/5 h-full gap-4 p-5 border-2 border-blue-600 border-dashed left">
             <div class="flex items-start content-center h-1/6 new-audio ">
                 <h3 class="px-4 py-2 border-2 rounded-xl">New Audio</h3>

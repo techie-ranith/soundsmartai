@@ -17,7 +17,7 @@
     <div class="parent1">
         <div class="parent2">
             <div>
-                <a href="#" class="button button1">
+                <a href="./payment.php" class="button button1">
                         
                     <ul class="circle ">
                    <div><span>Free</span> </div> 
@@ -30,7 +30,7 @@
                  </a>
             </div>
             <div>
-                <a href="#" class="button button2">
+                <a href="./payment.php" class="button button2">
                 
                     <ul class="circle">
                     <div><span>Basic</span></div>
@@ -47,7 +47,7 @@
             </div>
     
             <div>
-                <a href="#" class="button button3">
+                <a href="./payment.php" class="button button3">
                     <ul class="circle">
                            <div> <span>Pro</span> </div>
                             <div><hr></div>

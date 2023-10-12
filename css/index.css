@@ -44,9 +44,11 @@ body{
 }
 
 /* logo and top bar end */
+
 .maxwidth{
   position: relative;
   left: 10%;
+ 
  
 
 
@@ -60,7 +62,13 @@ body{
   background-repeat: no-repeat;
   background-size:cover;
   background-position:center;
-  width: a;
+  width: 100%;
+
+}
+@media (max-height:614px){
+  .frontpic{
+    padding-top: 200px;
+  }
 
 }
 .toptxt{
@@ -134,6 +142,7 @@ width: 500px;
 /* container2 */
 .contain2{
   height: 100vh;
+  /* border: #06FF97 solid 2px; */
 }
 
 
@@ -172,17 +181,43 @@ width: 500px;
   font-weight: bold;
   margin-right: 10%;
 }
-
+@media(max-width: 1395px){
+  .hi{
+    position: relative;
+    top:340px;
+  }
+  .contain2{
+    height: 160vh;
+    
+  }
+  
+}
+@media (max-width: 757px){
+  .hi{
+    position: relative;
+    top: 500px;
+  }
+  .wave{
+    width: 250px;
+  }
+  
+}
 
 
 
 .gif{
   /* background-image: url(/assest/05.gif); */
-  height: 350px;
-  width: 350px;
-  background-size: cover;
-  position: absolute;
-  left: 80%;
+  height: auto;
+  width: auto;
+  position: relative;
+  bottom: 50%;  
+ 
+
+  
+  /* background-size: cover; */
+  /* background-position: center; */
+  
+  
 
 
 
@@ -194,9 +229,50 @@ width: 500px;
   justify-content: center;
   /* border: 2px solid red; */
   height:fit-content;
-  position: relative;
-  top: 40px;
+  padding-bottom: 240px;
+
  
+
+
+}
+@media(max-width: 1300px) and ( min-width: 430px){
+  .container3{
+    display: none;
+  }
+
+.container03
+{
+  height: max-content;
+  padding-bottom: 400px;
+  
+}
+.bottom1{
+  display: flex;
+  overflow-x: auto;
+  position: relative;
+   padding-left: 50px;
+   column-gap: 32px;
+   padding-bottom: 0px;
+   width: 95%;
+}
+.top01{
+  padding-top: 250px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.tops{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-left: 30px;
+  width: 400px;
+}
 
 
 }
@@ -209,7 +285,7 @@ width: 500px;
 
 
 }
-@media(max-width:1300px){
+@media(max-width:1300px ){
   .container3{
     display: none;
   
@@ -265,7 +341,7 @@ width: 500px;
 
   display: flex;
   font-size: 45px;
-  color:bisque;
+  color:white;
 
 }
 .top1{
@@ -292,10 +368,10 @@ width: 500px;
 
 .back3{
  /* margin: auto; */
-  height: auto;
-  width: 100%;
+  height: fit-content;
+  width:100%;
   background: linear-gradient(98deg, #000 27.26%, #292C64 57.77%, rgba(18, 94, 67, 0.65) 75.21%, #202255 101.37%, #000 120.26%);
-
+  padding-bottom: 40px;
 
 }
 .soundmartai{
@@ -308,10 +384,11 @@ width: 500px;
   font-size: 60px;
   font-family: inter;
   font-weight: bold;
+  padding-bottom: 30px;
 }
 .sounddisc{
 color: white;
-font-size: auto;
+font-size: 27px;
 font-family: inter;
 width: auto;
 padding-right: 80px;
@@ -324,16 +401,16 @@ padding-bottom: 100px;
 display: flex;
 
 }
-.mic{
-  position: absolute;
-  right: 111px;
-  top: 2800px;
-}
 
+.imgasi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* page5 starting */
 .back4{
-  height: 50vh;
+  height: max-content;
   width: 100%;
   background-color: #000;
 
@@ -356,21 +433,23 @@ display: flex;
   padding-left: 40px;
   padding-right: 40px;
  text-align: justify;
+ overflow-x: auto;
+ padding-bottom: 230px;
 
 }
 .paragrph1{
-  width: 570px;
+  width: 800px;
   margin-left: 40px;
   margin-right: 40px;
 }
 .paragrph2{
-  width: 577px;
+  width: 800px;
   margin-right: 40px;
 
 
 }
 .paragrph3{
-  width: 570px;
+  width: 800px;
 }
 /*  client impresion end */
 

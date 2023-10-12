@@ -3,10 +3,21 @@
 <head><title>Subscription</title>
 <link rel="stylesheet" href="./css/subscription.css">
 <body>
+
+    <?php
+    include "cursor.php";
+    ?>
+<?php
+        include "navbar.php";
+    ?>
+
+
+
+
     <div class="parent1">
         <div class="parent2">
             <div>
-                <a href="#" class="button button1">
+                <a href="./payment.php" class="button button1">
                         
                     <ul class="circle ">
                    <div><span>Free</span> </div> 
@@ -19,7 +30,7 @@
                  </a>
             </div>
             <div>
-                <a href="#" class="button button2">
+                <a href="./payment.php" class="button button2">
                 
                     <ul class="circle">
                     <div><span>Basic</span></div>
@@ -36,7 +47,7 @@
             </div>
     
             <div>
-                <a href="#" class="button button3">
+                <a href="./payment.php" class="button button3">
                     <ul class="circle">
                            <div> <span>Pro</span> </div>
                             <div><hr></div>
@@ -67,6 +78,7 @@
             <h1>Select a plan</h1>
         </div>
 
+        <?php include "footer.php"; ?>
 
     </div>
 </body>

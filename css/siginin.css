@@ -134,8 +134,9 @@ body{
 
 #email {
     background-image: url('../assest/G-Mail.png');
-    /* width: 62px; */
+    width: 41px;
 }
+
 
 #apple {
     background-image: url('../assest/Apple.png'); 

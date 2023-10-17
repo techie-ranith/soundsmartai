@@ -27,7 +27,7 @@
                 </div><br>
                 <div class="email">
                     <label for=""><b>E-Mail</b></label> <br><br>
-                    <input type="text" id="email" name="email">
+                    <input type="text"  name="email">
                 </div><br>
                 <div class="pwd">
                     <label for=""><b>Password</label></b><br> <br>
@@ -37,20 +37,26 @@
                     <label for=""><b>Confirm Password</label></b><br> <br>
                     <input type="password" name="confirm_pass" require>
                 </div><br>
+                
                 <div class="icons">
-                    <!--<div class="icons"><a href="facebook"></a></div>
-                    <div class="icons"><a href="email"></a></div>
-                    <div class="icons"><a href="apple"></a></div>-->
-                    <div class="icon" id="facebook"></div>
-                <div class="icon" id="email"></div>
-                <div class="icon" id="apple"></div>
+               
+                    
+              <div class="icon" id="facebook"></div>
+             <div class="icon" id="email"></div>
+              <div class="icon" id="apple"></div>
+                
                 </div>
+
+                
                 <div class="done"><button type="submit">Sign Up</button></div>
                 <div class="noacc"> Already have an account?<a href="#">Sign in</a> </div>
             </form>
         </div>
     </div>
 </div>
+
+
+
 
 <?php include "footer.php"; ?>
 

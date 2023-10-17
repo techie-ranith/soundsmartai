@@ -87,7 +87,7 @@ body{
     outline: none;
     border-radius: 30px;
     width: 300px;
-    background-image:url('../assest/Wallpaper\ 2.jpg');
+    background-image:url('../assest/signup.jpg');
     font-weight:bolder ;
     border:none;
     height: 40px;
@@ -95,14 +95,14 @@ body{
     padding-left: 10%;
 }
 
-.email input
+.email1 input
 {
   
     border: none;
     outline: none;
     border-radius: 30px;
     width: 300px;
-    background-image:url('../assest/Wallpaper\ 2.jpg');
+    background-image:url('../assest/signup.jpg');
     font-weight:bolder ;
     height: 40px;
     flex-shrink: 0;
@@ -115,7 +115,7 @@ body{
     border: none;
     outline: none;
     border-radius: 30px;
-    background-image:url('../assest/Wallpaper\ 2.jpg');
+    background-image:url('../assest/signup.jpg');
     font-weight:bolder ;
     width: 300px;
     height: 40px;
@@ -127,7 +127,7 @@ body{
     border: none;
     outline: none;
     border-radius: 30px;
-    background-image:url('../assest/Wallpaper\ 2.jpg');
+    background-image:url('../assest/signup.jpg');
     font-weight:bolder ;
     width: 300px;
     height: 40px;
@@ -138,15 +138,16 @@ body{
 .icons {
     display: flex; /* Use flexbox */
     justify-content:center; /* Distribute icons evenly */
-    align-items: center; /* Vertically center icons */
+    align-items: center; 
+    width: 800px;
+    height: 60px;
 }
 .icon
  {
 
-    width: 48px; 
-    height: 48px;
+    width: 400px; 
+    height: 40px;
     background-size: cover;
-    margin: 10px; 
 }
 
 #facebook {
@@ -155,8 +156,10 @@ body{
 
 #email {
     background-image: url('../assest/G-Mail.png');
-    width: 62px;
+    width: 41px;
 }
+
+
 
 #apple {
     background-image: url('../assest/Apple.png'); 
@@ -186,7 +189,7 @@ body{
         height: 50px;
         flex-shrink: 0;
         border-radius: 89px;
-        background-image:url('../assest/Wallpaper\ 2.jpg');
+        background-image:url('../assest/signup.jpg');
         font-size:18px;
         font-weight: bold;
         left: 65px;

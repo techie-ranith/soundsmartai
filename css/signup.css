@@ -6,27 +6,7 @@
 
     
 }
-::-webkit-scrollbar{
-    background-color: #000000;
-   width: 10px;
-   
-   
-   
-   }
-   ::-webkit-scrollbar-track{
-   
-     margin-block: 120px;
-     padding: 3;
-   
-   }
-   ::-webkit-scrollbar-thumb{
-   
-     background:  var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
-     border-radius: 60px;
-   
-   }
-   
-   
+
 body{
     background-color: rgb(0, 0, 0);
     
@@ -87,7 +67,7 @@ body{
     outline: none;
     border-radius: 30px;
     width: 300px;
-    background-image:url('../assest/signup.jpg');
+    background-image:url('../assest/Wallpaper\ 2.jpg');
     font-weight:bolder ;
     border:none;
     height: 40px;
@@ -95,14 +75,14 @@ body{
     padding-left: 10%;
 }
 
-.email1 input
+.email input
 {
   
     border: none;
     outline: none;
     border-radius: 30px;
     width: 300px;
-    background-image:url('../assest/signup.jpg');
+    background-image:url('../assest/Wallpaper\ 2.jpg');
     font-weight:bolder ;
     height: 40px;
     flex-shrink: 0;
@@ -115,7 +95,7 @@ body{
     border: none;
     outline: none;
     border-radius: 30px;
-    background-image:url('../assest/signup.jpg');
+    background-image:url('../assest/Wallpaper\ 2.jpg');
     font-weight:bolder ;
     width: 300px;
     height: 40px;
@@ -127,7 +107,7 @@ body{
     border: none;
     outline: none;
     border-radius: 30px;
-    background-image:url('../assest/signup.jpg');
+    background-image:url('../assest/Wallpaper\ 2.jpg');
     font-weight:bolder ;
     width: 300px;
     height: 40px;
@@ -138,16 +118,15 @@ body{
 .icons {
     display: flex; /* Use flexbox */
     justify-content:center; /* Distribute icons evenly */
-    align-items: center; 
-    width: 800px;
-    height: 60px;
+    align-items: center; /* Vertically center icons */
 }
 .icon
  {
 
-    width: 400px; 
-    height: 40px;
+    width: 48px; 
+    height: 48px;
     background-size: cover;
+    margin: 10px; 
 }
 
 #facebook {
@@ -156,10 +135,8 @@ body{
 
 #email {
     background-image: url('../assest/G-Mail.png');
-    width: 41px;
+    width: 62px;
 }
-
-
 
 #apple {
     background-image: url('../assest/Apple.png'); 
@@ -189,12 +166,10 @@ body{
         height: 50px;
         flex-shrink: 0;
         border-radius: 89px;
-        background-image:url('../assest/signup.jpg');
+        background-image:url('../assest/Wallpaper\ 2.jpg');
         font-size:18px;
         font-weight: bold;
         left: 65px;
-        cursor: none;
-
         
 
           
@@ -208,5 +183,4 @@ body{
     justify-content: center;
     position: relative;
     top: 50px;
-
 }

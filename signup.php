@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/signup.css">
 </head>
 <body>
-    <?php    include "cursor.php";?>
+    <?php include "cursor.php";?>
     <?php include "navbar.php"; ?>
 
 <div class="container">

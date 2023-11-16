@@ -8,10 +8,8 @@
     <title>Document</title>
 </head>
     <?php include "navbar.php"; ?>
-
-     <?php
-    include "cursor.php";
-    ?>
+    <?php include "cursor.php";?>
+    
 <body class="text-white bg-black ">
 
     <div class="flex items-center justify-center h-screen container1 " id="contain01">
@@ -22,7 +20,7 @@
             <div class="flex flex-col items-start content-center w-full">
                 <div class="w-full">Previous</div>
                 <div class="flex items-center content-center">
-                    <div class="icon" style="background-image: url('assest/headphone_icon.png');"></div>
+                    <div class="icon" style="background-image: url('assest/headphone.png');"></div>
                     <div class="">audio name</div>
                 </div>
             </div>
@@ -39,7 +37,9 @@
                     </div>
                 </div>
             </div>
-            <div class="w-4/5 border-2 border-blue-600 border-dashed bottom h-1/2"></div>
+            <div class="w-4/5 border-2 border-blue-600 border-dashed bottom h-1/2">
+                <div id="text">text</div>
+            </div>
         </div>
     </div>
 

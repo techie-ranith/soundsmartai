@@ -1,32 +1,39 @@
+from flask import Flask, request, jsonify
+from flask_cors import CORS, cross_origin
 import whisper
-
-# process_file.py
-import sys
-
-# Check if the correct number of command-line arguments is provided
-if len(sys.argv) != 2:
-    print("Usage: python process_file.py <filename>")
-    sys.exit(1)
-
-# Get the filename from the command-line argument
-filename = sys.argv[1]
-
-try:
-    # Open and process the file
-    with open(filename, 'r') as file:
-        content = file.read()
-        print(f"Content of {filename}:\n{content}")
-except FileNotFoundError:
-    print(f"File '{filename}' not found.")
-except Exception as e:
-    print(f"An error occurred: {e}")
+import librosa
+import numpy as np
 
 
+app = Flask(__name__)
+CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app, resources={r"/audio": {"origins": "http://localhost"}})
 
 
-# whisper AI
+@app.route('/audio', methods=['POST'])
 
-model = whisper.load_model("base")
-result = model.transcribe("1.mp3")
-with open("output.txt",'w') as f:
-    f.write(result["text"])
+def upload_file():
+    uploaded_file = request.files['audio']
+    if uploaded_file:
+        print("file fetched to python script")
+        
+        # Load the audio file as a numpy array
+        audio, sr = librosa.load(uploaded_file, sr=None)
+
+        model = whisper.load_model("base")
+        result = model.transcribe(audio)
+        transcribed_text = result["text"]
+
+        with open("output.txt", 'w') as f:
+            f.write(transcribed_text)
+            print("done")
+        # Return the transcribed text as a JSON response
+        return jsonify({'text': transcribed_text})
+    else:
+        error = "No file was uploaded."
+        return jsonify({'error': error})
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

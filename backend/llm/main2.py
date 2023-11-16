@@ -1,21 +1,22 @@
+from flask import Flask, request, jsonify
 import whisper
 
-model = whisper.load_model("base")
+uploaded_file = "../../1.mp3"
+if uploaded_file:
+    print("file fetched to python script")
+    model = whisper.load_model("base")
+    result = model.transcribe(uploaded_file)
+    transcribed_text = result["text"]
 
-# load audio and pad/trim it to fit 30 seconds
-audio = whisper.load_audio("1.mp3")
-audio = whisper.pad_or_trim(audio)
+    with open("output.txt", 'w') as f:
+        f.write(transcribed_text)
+        print("done")
+    # Return the transcribed text as a JSON response
+    # return jsonify({'text': transcribed_text})
+# else:
+#     error = "No file was uploaded."
+#     return jsonify({'error': error})
 
-# make log-Mel spectrogram and move to the same device as the model
-mel = whisper.log_mel_spectrogram(audio).to(model.device)
 
-# detect the spoken language
-_, probs = model.detect_language(mel)
-print(f"Detected language: {max(probs, key=probs.get)}")
-
-# decode the audio
-options = whisper.DecodingOptions()
-result = whisper.decode(model, mel, options)
-
-# print the recognized text
-print(result.text)
+# if __name__ == '__main__':
+#     app.run(debug=True)

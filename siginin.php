@@ -20,33 +20,32 @@
     </div>
     <div class="right">
         <div>
-            <form action="">
-            <div class="main"><h1>Sign In</h1>
-            </div>
-            <div class="email">
-                <label for=""><b>E-Mail</label></b><br> <br>
-                <input type="text" require>
-            </div><br>
-            <div class="pwd">
-                <label for=""><b>Password</b></label> <br><br>
-                <input type="password">
-            </div><br>
-            <div class="icons">
-                <!--<div class="icons"><a href="facebook"></a></div>
-                <div class="icons"><a href="email"></a></div>
-                <div class="icons"><a href="apple"></a></div>-->
+            <form action="backend\sql_db_connections\signinbackend.php" method="POST">
+                <div class="main"><h1>Sign In</h1>
+                </div>
+                <div class="email">
+                    <label for=""><b>E-Mail</label></b><br><br>
+                    <input type="text" name="email" require>
+                </div><br>
+                <div class="pwd">
+                    <label for=""><b>Password</b></label> <br><br>
+                    <input type="password" name="password">
+                </div><br>
+                <div class="icons">
+                    <!--<div class="icons"><a href="facebook"></a></div>
+                    <div class="icons"><a href="email"></a></div>
+                    <div class="icons"><a href="apple"></a></div>-->
                 <div class="icon" id="facebook"></div>
-               <div class="icon" id="email"></div>
-              <div class="icon" id="apple"></div>
-            </div>
-            <div class="done"><button type="submit">Sign In</button></div>
-            <div class="noacc"> Don't have an Account?<a href="#">Sign Up</a> </div>
+                <div class="icon" id="email"></div>
+                <div class="icon" id="apple"></div>
+                </div>
+                <div class="done"><button type="submit">Sign In</button></div>
+                <div class="noacc"> Don't have an Account?<a href="#">Sign Up</a> </div>
             </form>
         </div>
     </div>
 </div>
 
     <?php include "footer.php"; ?>
-
 </body>
 </html>

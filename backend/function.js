@@ -1,8 +1,7 @@
+/*
 document.addEventListener("DOMContentLoaded", () => {
     const dropZone = document.getElementById("input-box");
-    const fileInput = document.getElementById("input-button");
 
-    // Handle file drop
     dropZone.addEventListener("dragover", (e) => {
         e.preventDefault();
         dropZone.classList.add("drag-over");
@@ -43,51 +42,89 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Handle file selection
     fileInput.addEventListener("change", () => {
-        const file = fileInput.files[0];
-        handleAudioFile(file);
+        const selectedFile = fileInput.files[0];
+        handleAudioFile(selectedFile);
     });
 
-    // Function to handle audio file
     function handleAudioFile(file) {
         if (!file) return;
         const audio = new Audio();
         audio.src = URL.createObjectURL(file);
-
-        // Check audio duration
-        audio.addEventListener("loadedmetadata", () => {
-            const duration = audio.duration;
-            if (duration <= 1800) { // Restrict audio length to 30 mins
-                audioDurationDisplay.textContent = duration.toFixed(2);
-
-                // Listen for the submit button click event within the changed content
-                const submitButton = document.getElementById("submit-button");
-                submitButton.addEventListener("click", () => {
-                    // Send the audio to the server via AJAX or another method
-                    sendAudioToServer(file);
-                });
-            } else {
-                alert("Audio duration exceeds 30 minutes.");
-            }
-        });
+        sendAudioToServer(file);
     }
 
     // Function to send audio to the server
     function sendAudioToServer(file) {
-        
-        var jsVariable = "<?php echo $phpVariable; ?>";
-        fetch("db_connections/realtimedb_fb.js", {
+        const formData = new FormData();
+        formData.append("audio", file);
+
+        fetch("llm/main.py", {
             method: "POST",
-            body: file,
-            headers: {
-                "sessionId": sessionId,
-            },
+            body: formData,
         })
-        .then((response) => response.text())
-        .then((data) => {
-            console.log(data); // Response from the server
+        .then((response) => response.json())
+        .then((transcribed_text) => {
+            const transcribedText = transcribed_text // Response from the server
+            const text = document.getElementById('text');
+            text.innerHTML = transcribedText;   
         })
         .catch((error) => {
             console.error("Error:", error);
         });
     }
+});*/
+
+
+
+
+
+// file upload button
+
+document.addEventListener("DOMContentLoaded", () => {
+    const fileInput = document.getElementById("input-button");
+
+    fileInput.addEventListener("change", () => {
+        const audio = fileInput.files[0];
+
+        if (audio) {
+            console.log("File loaded successfully");
+
+            const allowedExtensions = [".mp3"];
+            const fileName = audio.name;
+            const fileExtension = fileName.slice(((fileName.lastIndexOf(".") - 1) >>> 0) + 2);
+
+            if (allowedExtensions.includes("." + fileExtension.toLowerCase())) {
+                // File type is allowed, you can handle it here
+                const box = document.getElementById("box");
+                const newContent = `
+                    <div id="box" class="flex flex-col items-center justify-center">
+                        <div class="bg-center bg-no-repeat icon" style="background-image: url('assest/fileicon.png');"></div>
+                        <div class="filename">${fileName}</div>
+                        <div class="submit"><button id="submit-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" type="button">Submit</button></div>
+                    </div>
+                `;
+                box.innerHTML = newContent;
+
+                const submitButton = document.getElementById("submit-button");
+                submitButton.addEventListener("click", () => {
+                    console.log("button clicked")
+                    const formData = new FormData();
+                    formData.append("audio", audio);
+                    console.log("fetch api");
+                    fetch("http://127.0.0.1:5000/audio", {
+                        method: "POST",
+                        body: formData,
+                    })
+                    .then((response) => response.json())
+                    .then((transcribed_text) => {
+                        const text = document.getElementById('text');
+                        text.innerHTML = transcribed_text.text; // Response from the server
+                    })
+                    .catch((error) => {
+                        console.error("Error:", error);
+                    });
+                });
+            }
+        }
+    });
 });

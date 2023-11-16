@@ -1,7 +1,7 @@
 <?php
-    
+
 if (isset($_SESSION['user_id'])) {
-    header("Location: function.php");
+    header("Location: ../../function.php");
     exit;
 }
 
@@ -16,8 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = "Please fill in both email and password.";
     } else {
         // Query the database to check if the user exists
-        $sql = "SELECT id, email, password FROM users WHERE email = ? LIMIT 1";
         include "sql_db_connection.php";
+        $sql = "SELECT email, password FROM user WHERE email = ? LIMIT 1";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s", $email);
         $stmt->execute();
@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             session_start();
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_email'] = $user['email'];
-            header("Location: .../function.html");
+            header("Location: ../../function.php");
             exit;
         } else {
             $error = "Invalid email or password.";

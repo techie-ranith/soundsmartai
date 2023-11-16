@@ -18,7 +18,7 @@
     </div>
     <div class="right">
         <div>
-            <form id="SignUp" action="backend\sql_db_connections\signup_backend.php" method="POST">
+            <form id="SignUp" action="backend/sql_db_connections/signup.php" method="POST">
                 <div class="main"><h1>Create Your Account</h1>
                 </div><br>
                 <div class="name">

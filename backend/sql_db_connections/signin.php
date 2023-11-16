@@ -28,6 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($user && password_verify($password, $user['password'])) {
             // Password is correct, create a session
             session_start();
+            echo "<script>alert('Session Created');</script>";
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_email'] = $user['email'];
             header("Location: ../../function.php");

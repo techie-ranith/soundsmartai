@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./css/navbar.css">
-  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/animation.css">
   <!-- mediaqurees -->
-<link rel="stylesheet" href="./css/media-index.css">
+<link rel="stylesheet" href="../css/media-index.css">
 <!-- tailwinf -->
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -17,14 +17,14 @@
    <!-- TOP BAR -->
    <div class="topbar"> 
 
-<img class="img1" src="./assest/01.png" >   
+<img class="img1" src="../assets/01.png" >   
 
-<a class="i" href="./index.php" >Home</a>
-<a class="i" href="./faq.php">Support</a>
-<a class="i" href="./subscription.php">Pricing</a>
-<a class="i" href="./about.php">About</a>
-<a class="i" href="./siginin.php">Signin</a>
-<a class="i" href="./signup.php">SignUp</a>
+<a class="i" href="../php/index.php" >Home</a>
+<a class="i" href="../php/faq.php">Support</a>
+<a class="i" href="../php/subscription.php">Pricing</a>
+<a class="i" href="../php/about.php">About</a>
+<a class="i" href="../php/siginin.php">Signin</a>
+<a class="i" href="../php/signup.php">SignUp</a>
 <a href="" class="togle">
 <span class="menu"></span>
 <span class="menu"></span> 
@@ -34,9 +34,9 @@
 </div>        
 
 <div class="topbar2"> 
- <div class="floatl">
-  <img class="img2" src="./assest/01.png" >   
-</div>
+  <div class="floatl">
+    <img class="img2" src="./assest/01.png" >
+  </div>
   <div class="floatr">
   <a  onclick=showqw() class="togle">
     <span class="bar"></span>

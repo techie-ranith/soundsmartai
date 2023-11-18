@@ -7,12 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/siginin.css">
-    <link rel="stylesheet" href="./css/media-signin.css">
+    <link rel="stylesheet" href="../css/siginin.css">
+    <link rel="stylesheet" href="../css/media-signin.css">
 </head>
 <body>
     <!-- Include a navbar if needed -->
-    <?php    include "cursor.php";?>
     <?php    include "navbar.php";?>
 
 <div class="container">
@@ -20,7 +19,7 @@
     </div>
     <div class="right">
         <div>
-            <form action="backend/sql_db_connections/signin.php" method="POST">
+            <form action="../server/signin.php" method="POST">
                 <div class="main"><h1>Sign In</h1>
                 </div>
                 <div class="email">
@@ -39,7 +38,8 @@
                 <div class="icon" id="email"></div>
                 <div class="icon" id="apple"></div>
                 </div>
-                <div class="done"><button type="submit">Sign In</button></div>
+                <button class="flex justify-center w-full border-spacing-1">Sign in</button>
+    
                 <div class="noacc"> Don't have an Account?<a href="#">Sign Up</a> </div>
             </form>
         </div>

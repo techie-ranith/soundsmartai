@@ -1,10 +1,9 @@
 <?php
-if (isset($_SESSION['user_id'])) {
-    header("Location: ../../function.php");
-    exit;
-}
+session_start();
 
-require_once "sql_db_connection.php"; // Include your database connection script
+
+
+ // Include your database connection script
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
@@ -13,15 +12,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $confirm_pwd = $_POST["confirm_pass"];
     
     // Check if the provided data is not empty
-    if (!empty($name) && !empty($email) && !empty($password)) {
+    if (!empty($name) && !empty($email) && !empty($password) && $password == $confirm_pwd) {
         // Check if the user with the same email already exists
+        require_once "sql_db_connection.php";
         $checkEmail = "SELECT * FROM user WHERE email = ?";
         $stmtCheck = $conn->prepare($checkEmail);
         $stmtCheck->bind_param("s", $email);
         $stmtCheck->execute();
         $resultCheck = $stmtCheck->get_result();
+        echo "<script>alert('Data fetched');</script>";
         
         if ($resultCheck->num_rows == 0) {
+            echo "<script>alert('No user');</script>";
             // User does not exist, proceed with registration
             
             // Hash the password (you should use a secure password hashing mechanism like bcrypt)
@@ -38,14 +40,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 // Execute the statement
                 if ($stmt->execute()) {
                     session_start();
-
                     $_SESSION["user_id"] = $stmt->insert_id;
                     $_SESSION["user_email"] = $email;
 
                     // Echo the session id as a JavaScript variable
                     echo "<script>var sessionId = '$sessionId';</script>";
                     // Redirect to a protected area or display a success message
-                    header("Location: ../../function.php"); 
+                    header("Location: ../php/function.php"); 
                     exit();
                 } else {
                     $signupError = "Registration failed: " . $stmt->error;

@@ -1,6 +1,6 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="./css/payment.css">
+  <link rel="stylesheet" type="text/css" href="../css/payment.css">
 </head>
 <body>
   <div class="container">

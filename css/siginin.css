@@ -45,7 +45,7 @@ body{
  height: 100%;
  flex: 2;
  border: 2px solid rgb(0, 0, 0);
- background-image:url("../assest/signin.jpg");
+ background-image:url("../assets/signin.jpg");
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;
@@ -89,7 +89,7 @@ body{
     border-radius: 30px;
     /* background: #90AAED; */
 
-    background-image: url('../assest/signin.jpg');
+    background-image: url('../assets/signin.jpg');
     width: 300px;
     height: 40px;
     flex-shrink: 0;
@@ -105,7 +105,7 @@ body{
     outline: none;
     border-radius: 30px;
     /* background: #90AAED; */
-    background-image: url('../assest/signin.jpg');
+    background-image: url('../assets/signin.jpg');
 
     width: 300px;
     height: 40px;
@@ -129,58 +129,29 @@ body{
 }
 
 #facebook {
-    background-image: url('../assest/Facebook.png'); 
+    background-image: url('../assets/Facebook.png'); 
 }
 
 #email {
-    background-image: url('../assest/G-Mail.png');
+    background-image: url('../assets/G-Mail.png');
     width: 41px;
 }
 
 
 #apple {
-    background-image: url('../assest/Apple.png'); 
+    background-image: url('../assets/Apple.png'); 
 }
 
-.done
-{
-text-align: center;
-font-family: Inter;
-font-size: px;
 
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-}
-.done button
 
-    {
-        position: relative;
-        top: 30px;
-        order: none;
-          outline: none;
-          border-radius: 30px;
-          /* background: #90AAED; 
-        */
-        background-image: url('../assest/signin.jpg');
-
-          width: 200px;
-          height: 50px;
-          flex-shrink: 0;
-          
-          color:  #000;
-            font-size: 18px;
-            font-weight: bold;
-            border: none;
-            cursor: none;
-      
-      }
+    
 
 
 
 .noacc
 {
     font-size: 13px;
-    display: flex;
-    justify-content: center;
+    
+    position: relative;
+    top:150px;
 }

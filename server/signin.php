@@ -1,9 +1,7 @@
 <?php
 
-if (isset($_SESSION['user_id'])) {
-    header("Location: ../../function.php");
-    exit;
-}
+session_start();
+
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -17,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         // Query the database to check if the user exists
         include "sql_db_connection.php";
-        $sql = "SELECT email, password FROM user WHERE email = ? LIMIT 1";
+        $sql = "SELECT password FROM user WHERE email = ? LIMIT 1";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s", $email);
         $stmt->execute();
@@ -27,11 +25,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Verify the password if a user was found
         if ($user && password_verify($password, $user['password'])) {
             // Password is correct, create a session
-            session_start();
             echo "<script>alert('Session Created');</script>";
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_email'] = $user['email'];
-            header("Location: ../../function.php");
+            header("Location: ../php/function.php");
             exit;
         } else {
             $error = "Invalid email or password.";

@@ -20,9 +20,7 @@
         <link rel="stylesheet" href="./css/navbar.css">
     </head>
     <body>
-    <?php
-    include "cursor.php";
-    ?>
+   
 <?php
     include "navbar.php";
     ?>

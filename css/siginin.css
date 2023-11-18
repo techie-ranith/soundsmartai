@@ -142,45 +142,16 @@ body{
     background-image: url('../assest/Apple.png'); 
 }
 
-.done
-{
-text-align: center;
-font-family: Inter;
-font-size: px;
 
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-}
-.done button
 
-    {
-        position: relative;
-        top: 30px;
-        order: none;
-          outline: none;
-          border-radius: 30px;
-          /* background: #90AAED; 
-        */
-        background-image: url('../assest/signin.jpg');
-
-          width: 200px;
-          height: 50px;
-          flex-shrink: 0;
-          
-          color:  #000;
-            font-size: 18px;
-            font-weight: bold;
-            border: none;
-            cursor: none;
-      
-      }
+    
 
 
 
 .noacc
 {
     font-size: 13px;
-    display: flex;
-    justify-content: center;
+    
+    position: relative;
+    top:150px;
 }

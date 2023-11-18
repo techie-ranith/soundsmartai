@@ -16,10 +16,6 @@
 
 </head>
 <body>
-   
-<?php
-    include "cursor.php";
-    ?>
 
 <?php
     include "navbar.php";

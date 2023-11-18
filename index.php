@@ -39,9 +39,7 @@
 <link rel="stylesheet" href="./css/cursor.css">
 </head>
 <body>
-    <?php
-    include "cursor.php";
-    ?>
+   
 
 <?php
     include "navbar.php";

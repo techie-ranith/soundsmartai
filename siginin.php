@@ -12,7 +12,6 @@
 </head>
 <body>
     <!-- Include a navbar if needed -->
-    <?php    include "cursor.php";?>
     <?php    include "navbar.php";?>
 
 <div class="container">
@@ -39,7 +38,14 @@
                 <div class="icon" id="email"></div>
                 <div class="icon" id="apple"></div>
                 </div>
-                <div class="done"><button type="submit">Sign In</button></div>
+                <button class="flex justify-center w-full border-spacing-1">Sign in</button>
+                
+
+
+
+
+
+                
                 <div class="noacc"> Don't have an Account?<a href="#">Sign Up</a> </div>
             </form>
         </div>

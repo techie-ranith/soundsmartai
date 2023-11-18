@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 
-
+pointer-events: visible;
 
 
 
@@ -37,9 +37,7 @@ body{
   overflow-x: hidden;
   overflow-y:scroll;
   scroll-behavior: smooth;
-  
-  cursor: none;
-  cursor:none;
+  pointer-events: visible;
 
 }
 
@@ -110,7 +108,7 @@ width: 500px;
 }
 .bttr{
 
-  cursor: none;
+  cursor: pointer;
 
 }
 /* butoon here page 1 */
@@ -132,10 +130,10 @@ width: 500px;
   background: var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
   cursor: pointer;
   color: #000000;
-  cursor: pointer;
+ 
   transition: 4s;
   transform: b;
-  cursor: none;
+  
 }
 
 

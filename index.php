@@ -11,7 +11,9 @@
     <link rel="icon" href="./assest/01.png">
 
     <!-- style sheeet 01 -->
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="output.css">
 
     <!--font family inter  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

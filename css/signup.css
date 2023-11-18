@@ -67,7 +67,7 @@ body{
     outline: none;
     border-radius: 30px;
     width: 300px;
-    background-image:url('../assest/Wallpaper\ 2.jpg');
+    background-image:url('../assest/Wallpaper/2.jpg');
     font-weight:bolder ;
     border:none;
     height: 40px;
@@ -82,7 +82,7 @@ body{
     outline: none;
     border-radius: 30px;
     width: 300px;
-    background-image:url('../assest/Wallpaper\ 2.jpg');
+    background-image:url('../assest/Wallpaper/2.jpg');
     font-weight:bolder ;
     height: 40px;
     flex-shrink: 0;
@@ -107,7 +107,7 @@ body{
     border: none;
     outline: none;
     border-radius: 30px;
-    background-image:url('../assest/Wallpaper\ 2.jpg');
+    background-image:url('../assets/Wallpaper/2.jpg');
     font-weight:bolder ;
     width: 300px;
     height: 40px;

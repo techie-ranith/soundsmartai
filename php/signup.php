@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;900&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="../css/signup.css"> -->
 </head>
 <body>
     
-    <?php include "navbar.php"; ?>
 
-<div class="container">
+<!-- <div class="container">
     <div class="left">
     </div>
     <div class="right">
@@ -53,16 +52,48 @@
             </form>
         </div>
     </div>
+</div> -->
+
+<div>
+    <div style="" class=""></div>
+    <div>
+        <div>
+            <div>Create Your Account</div>
+            <div>
+                <label for="">Name</label>
+                <input type="text" placeholder="Name" name="name" require>
+            </div>
+            <div>
+                <label for="">E-mail</label>
+                <input type="text" placeholder="email" name="email" require>
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="text" placeholder="password" name="password" require>
+            </div>
+            <div>
+                <label for="">Confirm password</label>
+                <input type="text">
+            </div>
+            <div>
+                <div style="" class=""></div>
+                <div style="" class=""></div>
+                <div style="" class=""></div>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <div>Already have an account? <a href="">Sign In</a></div>
+        </div>
+    </div>
 </div>
 
 
 
 
-<?php include "footer.php"; ?>
 
 
 
-<script src="backend/function.js"></script>
 
 </body>
 </html>

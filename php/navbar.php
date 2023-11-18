@@ -34,9 +34,9 @@
 </div>        
 
 <div class="topbar2"> 
- <div class="floatl">
-  <img class="img2" src="./assest/01.png" >   
-</div>
+  <div class="floatl">
+    <img class="img2" src="./assest/01.png" >
+  </div>
   <div class="floatr">
   <a  onclick=showqw() class="togle">
     <span class="bar"></span>

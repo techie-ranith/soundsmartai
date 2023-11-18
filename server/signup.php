@@ -1,10 +1,7 @@
 <?php
 session_start();
 
-if (isset($_SESSION['user_id'])) {
-    header("Location: ../php/function.php");
-    exit;
-}
+
 
  // Include your database connection script
 
@@ -17,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if the provided data is not empty
     if (!empty($name) && !empty($email) && !empty($password) && $password == $confirm_pwd) {
         // Check if the user with the same email already exists
-        include "sql_db_connection.php";
+        require_once "sql_db_connection.php";
         $checkEmail = "SELECT * FROM user WHERE email = ?";
         $stmtCheck = $conn->prepare($checkEmail);
         $stmtCheck->bind_param("s", $email);
@@ -30,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // User does not exist, proceed with registration
             
             // Hash the password (you should use a secure password hashing mechanism like bcrypt)
-            $hashedPassword = password_hash($password, $PASSWORD_DEFAULT);
+            $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
             
             // Create a prepared statement for registration
             $sql = "INSERT INTO user(name,email,password) VALUES(?,?,?)";

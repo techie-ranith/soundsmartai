@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
     <?php include "navbar.php"; ?>
-    <?php include "cursor.php";?>
+   
     
 <body class="text-white bg-black ">
 

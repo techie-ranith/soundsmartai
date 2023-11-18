@@ -6,7 +6,7 @@ $password = "";
 $database = "soundsmartai"; 
 
 
-$conn = new mysqli($host, $username, $password, $database);
+$conn = new mysqli($host, $username, $password, $database,3308);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

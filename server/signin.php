@@ -2,10 +2,6 @@
 
 session_start();
 
-if (isset($_SESSION['user_id'])) {
-    header("Location: ../php/function.php");
-    exit;
-}
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

@@ -47,59 +47,6 @@
     include "navbar.php";
     ?>
 
-     <!-- <div class="cursor"></div>
-     <script type="text/javascript">
-        const cursor = document.querySelector(".cursor");
-
-        document.addEventListener("mousemove", (e) => {
-            let x=e.pageX;
-            let y=e.pageY;
-
-            cursor.style.top = y+ "px";
-            cursor.style.left= x + "px";
-            
-
-        });
-
-    
-     </script> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- TOP BAR -->
- <!-- TOP BAR -->
- <!-- <div class="topbar"> 
-
-    <a  href="./index.html"><img class="img1" src="./assest/01.png" >    </a>
-  
-    <a class="i" href="./index.html" >Home</a>
-    <a class="i" href="./faq.html">Support</a>
-    <a class="i" href="./subscription.html">Pricing</a>
-    <a class="i" href="./about.html">About</a>
-    <a class="i" href="./siginin.php">Signin</a>
-    <a class="i" href="./signup.php">SignUp</a>
-  <a href="" class="togle">
-    <span class="menu"></span>
-    <span class="menu"></span> 
-    <span class="menu"></span>
-</a> -->
     
 
 </div> 
@@ -176,7 +123,7 @@
             <div class="dec">This feature enables immediate conversion of spoken words into text during live conversations, presentations, or events. It ensures that users can access written transcripts in real-time, making it invaluable for accessibility, note-taking, and real-time decision-making in various contexts.</div>
         </div>
         <div class="gif">
-        <img src="./assest/05.gif" alt="">
+        <img src="../assets/05.gif" alt="">
 </div>
         
     </div>

@@ -56,7 +56,7 @@ body{
   display: flex;
   align-items: center;
   height: 100vh;
-  background-image: url("../assest/02.gif");
+  background-image: url("../assets/02.gif");
   background-repeat: no-repeat;
   background-size:cover;
   background-position:center;
@@ -145,7 +145,7 @@ width: 500px;
 
 
 .playbut{
-  background-image: url(../assest/03.png);
+  background-image: url(../assets/03.png);
   display: flex;
   justify-content: center;
   background-position: center;
@@ -159,7 +159,7 @@ width: 500px;
 
 }
 .wave{
-  background-image: url(../assest/04.png);
+  background-image: url(../assets/04.png);
   width: 400px;
   height: 140px;
   display: flex;
@@ -204,7 +204,7 @@ width: 500px;
 
 
 .gif{
-  /* background-image: url(/assest/05.gif); */
+  background-image: url(../assets/05.gif);
   height: auto;
   width: auto;
   position: relative;
@@ -225,7 +225,6 @@ width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 2px solid red; */
   height:fit-content;
   padding-bottom: 240px;
 
@@ -324,13 +323,12 @@ width: 500px;
 }
 
 .section3 .right{
-  /* background-image: url('../assest/'); */
+  
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   width: 100%;
   height: 100%;
-  /* border: 2px solid green; */
   width: 200px;
   height: 200px;
 }

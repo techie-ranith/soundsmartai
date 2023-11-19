@@ -28,12 +28,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
             
             // Create a prepared statement for registration
-            $sql = "INSERT INTO user(name,email,password) VALUES(?,?,?)";
+            $pricing_plan ="pro"
+            $sql = "INSERT INTO user(username,email,password,pricing_plan) VALUES(?,?,?,?)";
             $stmt = $conn->prepare($sql);
             
             if ($stmt) {
                 // Bind parameters
-                $stmt->bind_param("sss", $name, $email, $hashedPassword);
+                $stmt->bind_param("ssss", $name, $email, $hashedPassword,$pricing_plan);
                 
                 // Execute the statement
                 if ($stmt->execute()) {

@@ -89,7 +89,7 @@ body{
     border-radius: 30px;
     /* background: #90AAED; */
 
-    background-image: url('../assets/signin.jpg');
+    background-image: url('./assets/signin.jpg');
     width: 300px;
     height: 40px;
     flex-shrink: 0;
@@ -105,7 +105,7 @@ body{
     outline: none;
     border-radius: 30px;
     /* background: #90AAED; */
-    background-image: url('../assets/signin.jpg');
+    background-image: url('./assets/signin.jpg');
 
     width: 300px;
     height: 40px;
@@ -129,17 +129,17 @@ body{
 }
 
 #facebook {
-    background-image: url('../assets/Facebook.png'); 
+    background-image: url('./assets/Facebook.png'); 
 }
 
 #email {
-    background-image: url('../assets/G-Mail.png');
+    background-image: url('./assets/G-Mail.png');
     width: 41px;
 }
 
 
 #apple {
-    background-image: url('../assets/Apple.png'); 
+    background-image: url('./assets/Apple.png'); 
 }
 
 

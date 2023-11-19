@@ -11,7 +11,7 @@
     <link rel="icon" href="./assest/01.png">
 
     <!-- style sheeet 01 -->
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="input.css">
     <link rel="stylesheet" href="output.css">
 
@@ -123,7 +123,7 @@
             <div class="dec">This feature enables immediate conversion of spoken words into text during live conversations, presentations, or events. It ensures that users can access written transcripts in real-time, making it invaluable for accessibility, note-taking, and real-time decision-making in various contexts.</div>
         </div>
         <div class="gif">
-        <img src="../assets/05.gif" alt="">
+        <img src="./assets/05.gif" alt="">
 </div>
         
     </div>

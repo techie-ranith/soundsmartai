@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Subscription</title>
-    <link rel="stylesheet" href="../css/subscription.css">
+    <link rel="stylesheet" href="./css/subscription.css">
     <link rel="icon" href="./assets/01.png">
 </head>
 

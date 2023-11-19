@@ -10,13 +10,13 @@
         
 <?php include "navbar.php";
     ?>
+
   
         
     <br><br><br><br><br><br>
 
-<?php
-    include "cursor.php";
-    ?> 
+
+
 
     <div class="container">
         <a href="#" class="button button1">

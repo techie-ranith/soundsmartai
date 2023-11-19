@@ -30,14 +30,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Create a prepared statement for registration
 
             $price_plan = "free";
-            $sql = "INSERT INTO user(name,email,password,pricing-plan) VALUES(?,?,?,?)";
+            $sql = "INSERT INTO user(name,email,password) VALUES(?,?,?)";
 
             $stmt = $conn->prepare($sql);
             
             if ($stmt) {
                 // Bind parameters
 
-                $stmt->bind_param("ssss", $name, $email, $hashedPassword,$price_plan);
+                $stmt->bind_param("sss", $name, $email, $hashedPassword);
 
                 
                 // Execute the statement
@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     // Echo the session id as a JavaScript variable
                     echo "<script>var sessionId = '$sessionId';</script>";
                     // Redirect to a protected area or display a success message
-                    header("Location: ../function.php"); 
+                    header("Location: ../../function.php"); 
                     exit();
                 } else {
                     $signupError = "Registration failed: " . $stmt->error;

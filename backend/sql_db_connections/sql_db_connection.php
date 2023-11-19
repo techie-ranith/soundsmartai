@@ -1,10 +1,11 @@
 <?php
-$host = "localhost"; 
-$username = "root"; 
-$password = ""; 
-$database = "soundsmartai"; 
+$host = "143.198.196.165"; 
+$username = "admin"; 
+$password = "123456789Qw"; 
+$database = "soun_soundsmartai"; 
+$port = 8090;
 
-$conn = new mysqli($host, $username, $password, $database);
+$conn = new mysqli($host, $username, $password, $database,$port);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

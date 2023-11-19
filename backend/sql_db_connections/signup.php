@@ -1,8 +1,8 @@
 <?php
-if (isset($_SESSION['user_id'])) {
-    header("Location: ../../function.php");
-    exit;
-}
+// if (isset($_SESSION['user_id'])) {
+//     header("Location: ../../function.php");
+//     exit;
+// }
 
 require_once "sql_db_connection.php"; // Include your database connection script
 

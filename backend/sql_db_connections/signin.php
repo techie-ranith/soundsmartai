@@ -1,9 +1,9 @@
 <?php
 
-if (isset($_SESSION['user_id'])) {
-    header("Location: ../../function.php");
-    exit;
-}
+// if (isset($_SESSION['user_id'])) {
+//     header("Location: ../../function.php");
+//     exit;
+// }
 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

@@ -1,7 +1,7 @@
 <?php
-$host = "178.128.23.227"; 
-$username = "admin"; 
-$password = "123456789Qw"; 
+$host = "143.198.196.165"; 
+$username = "soun_admin"; 
+$password = "N-oxH3CMgi+7ex%!"; 
 $database = "soun_soundsmartai"; 
 
 

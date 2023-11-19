@@ -10,7 +10,8 @@
         
 <?php include "navbar.php";
     ?>
-
+<?php include "cursor.php";
+    ?>
   
         
     <br><br><br><br><br><br>

@@ -1,10 +1,9 @@
 <?php
-// if (isset($_SESSION['user_id'])) {
-//     header("Location: ../../function.php");
-//     exit;
-// }
+session_start();
 
-include "sql_db_connection.php"; // Include your database connection script
+
+
+ // Include your database connection script
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
@@ -13,33 +12,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $confirm_pwd = $_POST["confirm_pass"];
     
     // Check if the provided data is not empty
-    if (!empty($name) && !empty($email) && !empty($password)) {
+    if (!empty($name) && !empty($email) && !empty($password) && $password == $confirm_pwd) {
         // Check if the user with the same email already exists
+        require_once "sql_db_connection.php";
         $checkEmail = "SELECT * FROM user WHERE email = ?";
         $stmtCheck = $conn->prepare($checkEmail);
         $stmtCheck->bind_param("s", $email);
         $stmtCheck->execute();
         $resultCheck = $stmtCheck->get_result();
+        echo "<script>alert('Data fetched');</script>";
         
         if ($resultCheck->num_rows == 0) {
+            echo "<script>alert('No user');</script>";
             // User does not exist, proceed with registration
             
             // Hash the password (you should use a secure password hashing mechanism like bcrypt)
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
             
             // Create a prepared statement for registration
-            $pricing_plan ="pro"
-            $sql = "INSERT INTO user(username,email,password,pricing_plan) VALUES(?,?,?,?)";
+            $price_plan = "free";
+            $sql = "INSERT INTO user(name,email,password,pricing-plan) VALUES(?,?,?,?)";
             $stmt = $conn->prepare($sql);
             
             if ($stmt) {
                 // Bind parameters
-                $stmt->bind_param("ssss", $name, $email, $hashedPassword,$pricing_plan);
+                $stmt->bind_param("ssss", $name, $email, $hashedPassword,$price_plan);
                 
                 // Execute the statement
                 if ($stmt->execute()) {
                     session_start();
-
                     $_SESSION["user_id"] = $stmt->insert_id;
                     $_SESSION["user_email"] = $email;
 

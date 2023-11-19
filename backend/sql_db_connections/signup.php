@@ -1,9 +1,7 @@
 <?php
+
 session_start();
 
-
-
- // Include your database connection script
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
@@ -30,13 +28,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
             
             // Create a prepared statement for registration
+
             $price_plan = "free";
             $sql = "INSERT INTO user(name,email,password,pricing-plan) VALUES(?,?,?,?)";
+
             $stmt = $conn->prepare($sql);
             
             if ($stmt) {
                 // Bind parameters
+
                 $stmt->bind_param("ssss", $name, $email, $hashedPassword,$price_plan);
+
                 
                 // Execute the statement
                 if ($stmt->execute()) {

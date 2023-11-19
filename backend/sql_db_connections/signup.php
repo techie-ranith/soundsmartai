@@ -4,7 +4,7 @@
 //     exit;
 // }
 
-require_once "sql_db_connection.php"; // Include your database connection script
+include "sql_db_connection.php"; // Include your database connection script
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
@@ -46,7 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     // Echo the session id as a JavaScript variable
                     echo "<script>var sessionId = '$sessionId';</script>";
                     // Redirect to a protected area or display a success message
-                    header("Location: ../../function.php"); 
+                    header("Location: ../function.php"); 
                     exit();
                 } else {
                     $signupError = "Registration failed: " . $stmt->error;

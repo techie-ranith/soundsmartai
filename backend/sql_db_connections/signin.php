@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             echo "<script>alert('Session Created');</script>";
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_email'] = $user['email'];
-            header("Location: ../function.php");
+            header("Location: ../../function.php");
             exit;
         } else {
             $error = "Invalid email or password.";

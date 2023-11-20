@@ -12,7 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if the provided data is not empty
     if (!empty($name) && !empty($email) && !empty($password) && $password == $confirm_pwd) {
         // Check if the user with the same email already exists
-        require_once "sql_db_connection.php";
+        echo "<script>alert('Data fetched');</script>";
+        include "sql_db_connection.php";
         $checkEmail = "SELECT * FROM user WHERE email = ?";
         $stmtCheck = $conn->prepare($checkEmail);
         $stmtCheck->bind_param("s", $email);

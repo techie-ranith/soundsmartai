@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 else {
     // Redirect to the form if accessed directly
-    header("Location: contact_form.html");
+    header("Location:../../faq.php");
     exit();
 }
 

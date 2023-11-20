@@ -52,7 +52,10 @@
 
         <div class="session2">
            
-            <form action="" >
+
+            <form action="process_form.php" >
+
+     
                  <div class="heads">Contact Us</div>
                
                     <label for="">Name</label>
@@ -67,7 +70,10 @@
                     <br>
                     <div class="fqq"><textarea placeholder="Write something.." ></textarea></div>
                     <br>
-                 <div class="bt">Submit</div>
+
+                 <div class="bt" type="submit">Submit</div>
+
+    
             
           </form>
             

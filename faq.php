@@ -71,10 +71,12 @@
                     <div class="fqq"><textarea name="message" placeholder="Write something.." ></textarea></div>
                     <br>
 
+
                  <div class="bt"><input type="submit" value="submit" ></div>
 
 
                 
+
             
           </form>
             

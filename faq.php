@@ -53,7 +53,7 @@
         <div class="session2">
            
 
-            <form action="process_form.php" >
+            <form action="backend/sql_db_connections/process_form.php" >
 
      
                  <div class="heads">Contact Us</div>

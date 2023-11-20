@@ -26,24 +26,7 @@
 <?php
     include "navbar.php";
     ?>
-       
-     <!-- TOP BAR -->
-   
-     <!-- <div class="topbar"> 
-
-        <a  href="./index.html"><img class="img1" src="./assest/01.png" >    </a>
-      
-        <a class="i" href="./index.html" >Home</a>
-        <a class="i" href="./faq.html">Support</a>
-        <a class="i" href="./pricing.html">Pricing</a>
-        <a class="i" href="#about">About</a>
-        <a class="i" href="./siginin.html">Signin</a>
-        <a class="i" href="#signup">SignUp</a>
-        
-    </div>  -->
-
-
-
+    
         <div class="session1">
             <div class="faq">FAQ</div>
             <div class="topic1">How accurate is the AI speech-to-text converter in transcribing spoken words?</div>

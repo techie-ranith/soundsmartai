@@ -52,7 +52,7 @@
 
         <div class="session2">
            
-            <form action="" >
+            <form action="process_form.php" >
                  <div class="heads">Contact Us</div>
                
                     <label for="">Name</label>

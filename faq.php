@@ -26,25 +26,9 @@
 <?php
     include "navbar.php";
     ?>
-       
-     <!-- TOP BAR -->
-   
-     <!-- <div class="topbar"> 
-
-        <a  href="./index.html"><img class="img1" src="./assest/01.png" >    </a>
-      
-        <a class="i" href="./index.html" >Home</a>
-        <a class="i" href="./faq.html">Support</a>
-        <a class="i" href="./pricing.html">Pricing</a>
-        <a class="i" href="#about">About</a>
-        <a class="i" href="./siginin.html">Signin</a>
-        <a class="i" href="#signup">SignUp</a>
-        
-    </div>  -->
-
-
-
+    
         <div class="session1">
+            <div class="m">
             <div class="faq">FAQ</div>
             <div class="topic1">How accurate is the AI speech-to-text converter in transcribing spoken words?</div>
             <div class="para1">The accuracy of our AI speech-to-text converter depends on various factors, including audio quality, accent diversity, and language. In ideal conditions, it can achieve near-human accuracy, but real-world performance may vary.</div>
@@ -61,47 +45,37 @@
             <div class="topic5">Is it possible to set up recurring payments using my Visa card for the AI speech-to-text converter subscription?</div>
             <div class="para5">Yes, you can set up recurring payments with your Visa card for our subscription services. We offer flexible billing options, including monthly, quarterly, and annual plans, with automatic renewal for convenience.</div>
             <br>
+            </div>
         </div>
 
+        
+
         <div class="session2">
-            <div class="heading">Contact</div>
+           
             <form action="" >
-                <div class="form">
-                <div><label for="">Name</label>
+                 <div class="heads">Contact Us</div>
+               
+                    <label for="">Name</label>
+                    <br>    
+                   <div class="fq"><input type="text" placeholder="Enter the Name"></div> 
+                    <br><br>
+                <label for="">E-mail</label>
                     <br>
-                    <input type="text"></div>
+                    <div class="fq" ><input type="text" placeholder="Enter the Email"></div>
+                    <br><br>
+                <label for="">Massage</label>
                     <br>
-                <div><label for="">E-mail</label>
+                    <div class="fqq"><textarea placeholder="Write something.." ></textarea></div>
                     <br>
-                    <input type="text"></div>
-                    <br>
-                <div><label for="">Massage</label>
-                    <br>
-                    <input type="text"></div>
-                    <br>
-            </div>
-            </form>
+                 <div class="bt">Submit</div>
+            
+          </form>
             
 
 
 
 
         </div>
-
-
-
-
-        <!-- <div class="footer">
-            <div class="footer-section">
-                <div class="box">Quick Links <br> <br> Pricing <br>SignUp</div>
-                <div class="box">Contact <br> soundsmartai@gmail.com</div>
-                <div class="box box3">
-                    <div class="icon icon1"></div>
-                    <div class="icon icon2"></div>
-                    <div class="icon icon3"></div>
-                </div>
-            </div>
-        </div> -->
 
 
         <?php include "footer.php"; ?>

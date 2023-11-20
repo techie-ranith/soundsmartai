@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Create email content
     $to = "soundsmartai@gmail.com";
-    $subject = "user feedback";
+    $subject = "New Contact Form Submission";
     $headers = "From: $name <$email>";
     $body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
@@ -20,9 +20,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Sorry, there was an error sending your message. Please try again later.";
     }
-} else {
+
+
+} 
+
+else {
     // Redirect to the form if accessed directly
-    header("Location:../../faq.php");
+    header("Location: contact_form.html");
     exit();
 }
 

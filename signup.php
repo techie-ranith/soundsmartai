@@ -37,32 +37,17 @@
                     <label for=""><b>Confirm Password</label></b><br> <br>
                     <input type="password" name="confirm_pass" require>
                 </div><br>
-                
                 <div class="icons">
-               
-                    
               <div class="icon" id="facebook"></div>
              <div class="icon" id="email"></div>
               <div class="icon" id="apple"></div>
-                
                 </div>
-
-                
                 <div class="done"><button type="submit">Sign Up</button></div>
                 <div class="noacc"> Already have an account?<a href="#">Sign in</a> </div>
             </form>
         </div>
     </div>
 </div>
-
-
-
-
 <?php include "footer.php"; ?>
-
-
-
-<script src="backend/function.js"></script>
-
 </body>
 </html>

@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
-    
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-      </script>
-          <script type="text/javascript">
-              (function(){
-              emailjs.init("h4DNcZvqdz8pXDohG");
-            })();
-      </script>
-      <script src="js/script.js"></script>
-
-
-    
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>soundsmartai</title>
@@ -67,9 +53,7 @@
         <div class="session2">
            
 
-            <form  method="POST" >
-
-        
+            <form action="backend/sql_db_connections/process_form.php" >
 
      
                  <div class="heads">Contact Us</div>
@@ -88,7 +72,7 @@
                     <br>
 
 
-                 <div class="bt"><input type="submit" value="submit" onclick="sendmail()" ></div>
+                 <div class="bt"><input type="submit" value="submit" ></div>
 
 
                 

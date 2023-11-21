@@ -1,3 +1,4 @@
+
 function sendmail()
 {
   let parms ={
@@ -7,5 +8,7 @@ function sendmail()
 
 
   } 
+  
+
   emailjs.send('service_jkufqib','service_jkufqib',parms).then(alert("Email Sent"));
 }

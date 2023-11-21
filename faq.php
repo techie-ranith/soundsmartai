@@ -76,15 +76,15 @@
                
                     <label for="">Name</label>
                     <br>    
-                   <div class="fq"><input type="text" name="name" placeholder="Enter the Name"></div> 
+                   <div class="fq"><input type="text" name="name" id="name" placeholder="Enter the Name"></div> 
                     <br><br>
                 <label for="">E-mail</label>
                     <br>
-                    <div class="fq" ><input type="text" name="email" placeholder="Enter the Email"></div>
+                    <div class="fq" ><input type="text" name="email" id="email" placeholder="Enter the Email"></div>
                     <br><br>
                 <label for="">Massage</label>
                     <br>
-                    <div class="fqq"><textarea name="message" placeholder="Write something.." ></textarea></div>
+                    <div class="fqq"><textarea name="message" id="message"placeholder="Write something.." ></textarea></div>
                     <br>
 
 

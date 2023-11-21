@@ -11,7 +11,7 @@
               emailjs.init("h4DNcZvqdz8pXDohG");
             })();
       </script>
-      <script src="./js/script.js"></script>
+      <script src="js/script.js"></script>
 
 
     
@@ -67,7 +67,7 @@
         <div class="session2">
            
 
-            <form action="backend/sql_db_connections/process_form.php" method="POST" >
+            <form  method="POST" >
 
         
 
@@ -88,7 +88,7 @@
                     <br>
 
 
-                 <div class="bt"><input type="submit" value="submit" onclick="sendEmail()" ></div>
+                 <div class="bt"><input type="submit" value="submit" onclick="sendmail()" ></div>
 
 
                 

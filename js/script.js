@@ -10,5 +10,8 @@ function sendmail()
   } 
   
 
+
   emailjs.send('service_jkufqib','template_kgk98yp',parms).then(alert("Email Sent"));
+
+ 
 }

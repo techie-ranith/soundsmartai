@@ -68,8 +68,8 @@
         <div class="session2">
            
 
-            <form meth>
 
+            <form >
      
                  <div class="heads">Contact Us</div>
                

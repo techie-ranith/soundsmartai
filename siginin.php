@@ -14,7 +14,13 @@
     <!-- Include a navbar if needed -->
     <?php    include "cursor.php";?>
     <?php    include "navbar.php";?>
-
+    <?php
+        if (isset($_SESSION['error'])) {
+            echo "<script>alert('" . $_SESSION['error'] . "');</script>";
+            unset($_SESSION['error']);
+        }
+    ?>
+    
 <div class="container">
     <div class="left">
     </div>
@@ -32,9 +38,6 @@
                     <input type="password" name="password">
                 </div><br>
                 <div class="icons">
-                    <!--<div class="icons"><a href="facebook"></a></div>
-                    <div class="icons"><a href="email"></a></div>
-                    <div class="icons"><a href="apple"></a></div>-->
                 <div class="icon" id="facebook"></div>
                 <div class="icon" id="email"></div>
                 <div class="icon" id="apple"></div>

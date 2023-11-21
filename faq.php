@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
-    
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-      </script>
-          <script type="text/javascript">
-              (function(){
-              emailjs.init("h4DNcZvqdz8pXDohG");
-            })();
-      </script>
-      <script src="./js/script.js"></script>
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("h4DNcZvqdz8pXDohG");
+   })();
+</script>
+
+
+
+<script src="js/script.js"></script>
 
 
     
@@ -67,28 +68,26 @@
         <div class="session2">
            
 
-            <form action="backend/sql_db_connections/process_form.php" method="POST" >
-
-        
+            <form >
 
      
                  <div class="heads">Contact Us</div>
                
                     <label for="">Name</label>
                     <br>    
-                   <div class="fq"><input type="text" name="name" placeholder="Enter the Name"></div> 
+                   <div class="fq"><input type="text" name="name" id="name" placeholder="Enter the Name"></div> 
                     <br><br>
                 <label for="">E-mail</label>
                     <br>
-                    <div class="fq" ><input type="text" name="email" placeholder="Enter the Email"></div>
+                    <div class="fq" ><input type="text" name="email" id="email" placeholder="Enter the Email"></div>
                     <br><br>
                 <label for="">Massage</label>
                     <br>
-                    <div class="fqq"><textarea name="message" placeholder="Write something.." ></textarea></div>
+                    <div class="fqq"><textarea name="message" id="message"placeholder="Write something.." ></textarea></div>
                     <br>
 
 
-                 <div class="bt"><input type="submit" value="submit" onclick="sendEmail()" ></div>
+                 <div class="bt"><input type="submit" value="submit" onclick="sendmail()" ></div>
 
 
                 

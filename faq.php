@@ -90,7 +90,7 @@
 <script type="text/javascript">
   emailjs.init('h4DNcZvqdz8pXDohG')
 </script>
-<script src="/js/script.js"></script>
+<script src="js/script.js"></script>
     
             
 

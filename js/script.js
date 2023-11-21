@@ -10,5 +10,5 @@ function sendmail()
   } 
   
 
-  emailjs.send('service_jkufqib','service_jkufqib',parms).then(alert("Email Sent"));
+  emailjs.send('service_jkufqib','template_kgk98yp',parms).then(alert("Email Sent"));
 }

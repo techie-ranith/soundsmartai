@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("h4DNcZvqdz8pXDohG");
-   })();
-</script>
+  
+  
 
 
 
-<script src="./js/script.js"></script>
 
 
     
@@ -69,7 +62,7 @@
            
 
 
-            <form >
+            <form id=form>
      
                  <div class="heads">Contact Us</div>
                
@@ -87,14 +80,23 @@
                     <br>
 
 
-                 <div class="bt"><input type="submit" value="submit" onclick="sendmail()" ></div>
+                 <div class="bt"><input type="submit" value="submit" id="button" ></div>
 
 
-                
+             </form>   
+             <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('h4DNcZvqdz8pXDohG')
+</script>
+<script src="./js/script.js"></script>
+    
             
 
 
         </div>
+        
 
 
         <?php include "footer.php"; ?>

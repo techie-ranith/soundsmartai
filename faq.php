@@ -53,7 +53,7 @@
         <div class="session2">
            
 
-            <form action="backend/sql_db_connections/process_form.php" >
+            <form >
 
      
                  <div class="heads">Contact Us</div>
@@ -72,7 +72,7 @@
                     <br>
 
 
-                 <div class="bt"><input type="submit" value="submit" ></div>
+                 <div class="bt"><input type="submit" value="submit" onclick="sendEmail()" ></div>
 
 
                 

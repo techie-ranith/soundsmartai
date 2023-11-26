@@ -57,7 +57,7 @@
             <div class="maxwidth">
                 <div class="wo" >
                     <p >CONVERT <span class="Efficient">EFFICIENT</span><br>
-                        SPEACH TO TEXT<br></p>
+                        SPEECH TO TEXT<br></p>
                 </div>
                
                     <p class="para1">We’re building superhuman systems for transcribing and understanding human speech</p>

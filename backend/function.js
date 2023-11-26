@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const formData = new FormData();
                     formData.append("audio", audio);
                     console.log("fetch api");
-                    fetch("http://143.198.91.148:5000/audio", {
+                    fetch("http://127.0.0.1:5000/audio", {
                         method: "POST",
                         body: formData,
                     })

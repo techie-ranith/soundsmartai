@@ -14,14 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Send email
     $success = mail($to, $subject, $body, $headers);
-
     if ($success) {
-        echo "Thank you for contacting us!";
+        echo "<script>alert('respond sent')</script>";
     } else {
         echo "Sorry, there was an error sending your message. Please try again later.";
     }
-
-
 } 
 
 else {
@@ -29,5 +26,4 @@ else {
     header("Location:../../faq.php");
     exit();
 }
-
 ?>

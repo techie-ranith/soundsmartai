@@ -1,18 +1,17 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS, cross_origin
+# from flask_cors import CORS, cross_origin
 import whisper
 import librosa
 import numpy as np
 
 
 app = Flask(__name__)
-CORS(app)
-CORS(app, resources={r"/*": {"origins": "*"}})
-CORS(app, resources={r"/audio": {"origins": "http://localhost"}})
+# CORS(app)
+# CORS(app, resources={r"/*": {"origins": "*"}})
+# CORS(app, resources={r"/audio": {"origins": "http://localhost"}})
 
 
 @app.route('/audio', methods=['POST'])
-
 def upload_file():
     uploaded_file = request.files['audio']
     if uploaded_file:

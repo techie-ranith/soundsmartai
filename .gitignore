@@ -1,3 +1,5 @@
 venv/
 1.mp3
 node_modules/
+/vendor/
+backend/llm/venv/

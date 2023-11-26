@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $sql = "SELECT id, email, password FROM user WHERE email = ? LIMIT 1";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s", $email);
-        $stmt->execute();
+        $stmt->execute();   
         $result = $stmt->get_result();
         $user = $result->fetch_assoc();
         if ($user && password_verify($password, $user['password'])) {

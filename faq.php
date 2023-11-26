@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+  
+  
+
+
+
+
+
+    
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>soundsmartai</title>
@@ -53,40 +61,42 @@
         <div class="session2">
            
 
-            <form action="backend/sql_db_connections/process_form.php" method="POST" >
 
-        
-
+            <form id=form>
      
                  <div class="heads">Contact Us</div>
                
                     <label for="">Name</label>
                     <br>    
-                   <div class="fq"><input type="text" name="name" placeholder="Enter the Name"></div> 
+                   <div class="fq"><input type="text" name="name" id="name" placeholder="Enter the Name"></div> 
                     <br><br>
                 <label for="">E-mail</label>
                     <br>
-                    <div class="fq" ><input type="text" name="email" placeholder="Enter the Email"></div>
+                    <div class="fq" ><input type="text" name="email" id="email" placeholder="Enter the Email"></div>
                     <br><br>
                 <label for="">Massage</label>
                     <br>
-                    <div class="fqq"><textarea name="message" placeholder="Write something.." ></textarea></div>
+                    <div class="fqq"><textarea name="message" id="message"placeholder="Write something.." ></textarea></div>
                     <br>
 
 
-                 <div class="bt"><input type="submit" value="submit" ></div>
+                 <div class="bt"><input type="submit" value="submit" id="button" ></div>
 
 
-                
+             </form>   
+             <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
+<script type="text/javascript">
+  emailjs.init('h4DNcZvqdz8pXDohG')
+</script>
+<script src="js/script.js"></script>
+    
             
-          </form>
-            
-
-
 
 
         </div>
+        
 
 
         <?php include "footer.php"; ?>

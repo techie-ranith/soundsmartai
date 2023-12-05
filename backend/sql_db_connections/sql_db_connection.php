@@ -1,8 +1,8 @@
 <?php
 $host = "localhost"; 
-$username = "soun_admin"; 
-$password = "N-oxH3CMgi+7ex%!"; 
-$database = "soun_soundsmartai"; 
+$username = "root"; 
+$password = ""; 
+$database = "soundsmartai"; 
 
 
 $conn = new mysqli($host, $username, $password, $database);

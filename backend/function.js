@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (allowedExtensions.includes("." + fileExtension.toLowerCase())) {
                 // File type is allowed, you can handle it here
-                const box = document.getElementById("box");
+                const box = document.getElementById("box"); 
                 const newContent = `
                     <div id="box" class="flex flex-col items-center justify-center">
                         <div class="bg-center bg-no-repeat icon" style="background-image: url('assest/fileicon.png');"></div>
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const formData = new FormData();
                     formData.append("audio", audio);
                     console.log("fetch api");
-                    fetch("http://143.198.91.148:5000/audio", {
+                    fetch("http://127.0.0.1:5000/audio", {
                         method: "POST",
                         body: formData,
                     })

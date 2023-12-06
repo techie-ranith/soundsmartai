@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Subscription</title>
-    <link rel="stylesheet" href="./css/pricing.css">
+    <link rel="stylesheet" href="./css/subscription.css">
     <link rel="icon" href="./assest/01.png">
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-48LQRBV96R"></script>
@@ -29,7 +29,7 @@
 
 
     <div class="container">
-        <a href="#" class="button button1">
+        <a href="./siginin.php" class="button button1">
             <div class="top"><br>
                 <span>Free</span>
                 
@@ -46,7 +46,7 @@
                 <span class="t3">Free</span>
             </div>
         </a>
-        <a href="#" class="button button2">
+        <a href="./payment.php" class="button button2">
             <div class="top"><br>
                 <span>Basic</span>
                 
@@ -63,7 +63,7 @@
                 <span class="t1">$5</span><span class="t2">.00</span>
             </div>
         </a>
-        <a href="#" class="button3">
+        <a href="./payment.php" class="button3">
             <div class="top"><br>
                 <span>Pro</span>
                 

@@ -74,7 +74,7 @@
                     <p class="para1">We’re building superhuman systems for transcribing and understanding human speech</p>
                 
                 <div class="bttr">
-                   <a href="./signup.php"><button class="tryit" >Try it out</button></a> 
+                   <a href="./subscription.php"><button class="tryit" >Try it out</button></a> 
                 </div>
             </div>
         </selection>

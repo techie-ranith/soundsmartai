@@ -54,7 +54,7 @@
   <a class="q" href="./index.php" >Home</a>
   <a class="q" href="./faq.php">Support</a>
   <a class="q" href="./subscription.php">Pricing</a>
-  <a class="q" href="#about">About</a>
+  <a class="q" href="./about.php">About</a>
   <a class="q" href="./siginin.php">Signin</a>
   <a class="q" href="./signup.php">SignUp</a>
 </div>

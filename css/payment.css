@@ -1,20 +1,36 @@
+*{
+  margin:0;
+  padding: 0%;
+ 
+
+}
 body {
   background: linear-gradient(99deg, #000 -32.65%, #292C64 39.57%, rgba(18, 94, 67, 0.65) 80.84%, #202255 142.74%, #000 187.45%);
-  background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0; 
-  overflow: hidden; 
+  
+  width: 100%;
+  
+  
+  
 }
 
-.container {
+
+.container{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: linear-gradient(99deg, #000 -32.65%, #292C64 39.57%, rgba(18, 94, 67, 0.65) 80.84%, #202255 142.74%, #000 187.45%);
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
+  height:100vh;
+  width:100%;
+ 
+
+  
+
+} 
+.ct2{
+  height: max-content;
+  width: max-content;
+  padding: 100px;
+  border-radius: 20px;
+  background-color: rgba(0,0,0,0.3);
 }
 
 .details{
@@ -32,16 +48,9 @@ body {
  
 }
 
-svg {
-  width: 1750px; 
-  height: auto;
-  
-}
 
 
-form {
-  
-}
+
 
 label {
   display: block;
@@ -76,6 +85,7 @@ input:hover{opacity: 0.6;}
   padding: 10px;
   border: none;
   font-weight: bold;
+  color: #000;
 }
 
 .button:hover{
@@ -123,7 +133,4 @@ input:hover{opacity: 0.6;}
     width: 250px;
   }
   
-  .plan-feature {
-    
-  }
-  
+ 

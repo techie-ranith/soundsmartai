@@ -3,13 +3,13 @@
 <link rel="stylesheet" href="./css/pricing.css">
 <link rel="icon" href="./assest/01.png">
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4ENXH025TD"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-48LQRBV96R"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-4ENXH025TD');
+  gtag('config', 'G-48LQRBV96R');
 </script>
 </head>
 <body>

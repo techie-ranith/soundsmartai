@@ -1,4 +1,5 @@
 *{
+  font-family: inherit;
     
   margin: 0;
   padding: 0;
@@ -65,6 +66,7 @@ body{
    background-size: cover;
   overflow-y: scroll;
   height:max-content;
+  font-family: inherit;
   
 }
 
@@ -80,25 +82,27 @@ line-height: normal;
 .container1{
 
 display: flex;
-  align-items: flex-start;
-  /* justify-content: flex-end; */
-  height: 100vh;
+  align-items: center;
+  justify-content: center; 
+  
   flex-direction: column;
-  margin: 50px;
+
 
 
 width: 1110px;
-height: 320px;
+height: 220px;
 flex-shrink: 0;
-top: 166px;
-left: 162px;
-border: 20px;
 
+border: 2px;
+position: relative;
+right: 30px;
 border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
+
+
 
 background: #000000;
 
-padding: 20px;
+padding: 2px;
 background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
 linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
 
@@ -114,12 +118,12 @@ background: #000000;
   display: flex;
   align-items: center;
   /* justify-content: ; */
-  border: 2px solid rgb(0, 0, 0);
+
   width: 80%;
   margin: 50px;
 
   width: 1280px;
-height: 380px;
+  height: 290px;
 flex-shrink: 0;
 top: 166px;
 left: 162px;
@@ -146,7 +150,7 @@ display: flex;
   margin: 50px;
 
   width: 1073px;
-  height: 359px;
+  height: 300px;
   flex-shrink: 0;
 top: 166px;
 left: 162px;
@@ -170,28 +174,37 @@ font-weight: 500;
 }
 
 .container4{
-display: flex;
-  align-items: center;
-  /* justify-content: ; */
-  border: 2px solid red;
-  width: 80%;
-  margin: 50px;
 
-  width: 523px;
-  height: 446px;
+  display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    flex-direction: column;
+    margin: 50px;
+  
+  
+  width: 1110px;
+  height: 240px;
   flex-shrink: 0;
-top: 166px;
-left: 162px;
-border: 20px;
-
-padding: 10px;
-border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
-
+  top: 166px;
+  left: 162px;
+  border: 20px;
+  
+  border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
+  
+  
+  
+  background: #000000;
+  
+  padding: 20px;
   background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
   linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
-}
+  
+  }
 .section4{
+  
 background: #000000;
+
 }
 
 .container5{
@@ -202,8 +215,8 @@ display: flex;
   width: 80%;
   margin: 50px;
 
-  width: 523px;
-  height: 378px;
+  width: 1523px;
+  height: 200px;
   flex-shrink: 0;
 top: 166px;
 left: 162px;
@@ -212,7 +225,7 @@ border: 20px;
 padding: 10px;
 border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
 
-  background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
+background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
   linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
 }
 .section5{
@@ -220,126 +233,126 @@ background: #000000;
 }
 
 .container6{
-display: flex;
+  display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    border: 2px solid red;
+    width: 100%;
+    margin: 50px;
+   float: left;
+    width: 1523px;
+    height: 220px;
+    flex-shrink: 0;
+  top: 166px;
+  left: 162px;
+  border: 20px;
+  
+  padding: 10px;
+  border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
+  
+    background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
+    linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
+  }
+  .section6{
+  background: #000000;
+  }
+  
+  .container7{
+  display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    border: 2px solid red;
+    width: 80%;
+    margin: 50px;
+  
+    width: 1523px;
+    height: 240px;
+    flex-shrink: 0;
+  top: 166px;
+  left: 162px;
+  border: 20px;
+  
+  padding: 10px;
+  border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
+  
+    background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
+    linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
+  }
+  .section7{
+  background: #000000;
+  }
+  
+  .container8{
+  display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    border: 2px solid red;
+    width: 80%;
+    margin: 50px;
+  
+    width: 975px;
+    height: 340px;
+    flex-shrink: 0;
+  top: 166px;
+  left: 162px;
+  border: 20px;
+  
+  padding: 10px;
+  border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
+  
+    background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
+    linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
+  }
+  .section8{
+  background: #000000;
+  }
+  
+  
+  
+  .footer {
+  display: flex;
   align-items: center;
-  /* justify-content: ; */
-  border: 2px solid red;
+  justify-content: center;
+  background-color: black;
+  height: 200px; /* Set an appropriate height for your footer */
+  }
+  
+  .footer-section {
   width: 80%;
-  margin: 50px;
-
-  width: 523px;
-  height: 378px;
-  flex-shrink: 0;
-top: 166px;
-left: 162px;
-border: 20px;
-
-padding: 10px;
-border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
-
-  background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
-  linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
-}
-.section6{
-background: #000000;
-}
-
-.container7{
-display: flex;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 20px; /* Add some padding for spacing */
+  }
+  
+  .box3{
+  display: flex;
   align-items: center;
-  /* justify-content: ; */
-  border: 2px solid red;
-  width: 80%;
-  margin: 50px;
-
-  width: 523px;
-  height: 346px;
-  flex-shrink: 0;
-top: 166px;
-left: 162px;
-border: 20px;
-
-padding: 10px;
-border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
-
-  background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
-  linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
-}
-.section7{
-background: #000000;
-}
-
-.container8{
-display: flex;
-  align-items: center;
-  /* justify-content: ; */
-  border: 2px solid red;
-  width: 80%;
-  margin: 50px;
-
-  width: 975px;
-  height: 346px;
-  flex-shrink: 0;
-top: 166px;
-left: 162px;
-border: 20px;
-
-padding: 10px;
-border-image-source: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%);
-
-  background: linear-gradient(55.81deg, #000000 11.14%, #292C64 27.15%, #202255 66.57%, #000000 91.29%),
-  linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
-}
-.section8{
-background: #000000;
-}
-
-
-
-.footer {
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: black;
-height: 200px; /* Set an appropriate height for your footer */
-}
-
-.footer-section {
-width: 80%;
-display: flex;
-/* align-items: center; */
-justify-content: space-between;
-padding: 20px; /* Add some padding for spacing */
-}
-
-.box3{
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 10px; /* Add some padding for spacing */
-}
-.icon{
-margin: 10px;
-width: 30px;
-height: 30px;
-}
-.icon1{
-background-image: url("../assest/insta.png");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-}
-
-.icon2{
-background-image: url("../assest/Facebook.png");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-}
-
-.icon3{
-background-image: url("../assest/LinkedIn.png");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-}
+  justify-content: center;
+  padding: 10px; /* Add some padding for spacing */
+  }
+  .icon{
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  }
+  .icon1{
+  background-image: url("../assest/insta.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  
+  .icon2{
+  background-image: url("../assest/Facebook.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+  
+  .icon3{
+  background-image: url("../assest/LinkedIn.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }

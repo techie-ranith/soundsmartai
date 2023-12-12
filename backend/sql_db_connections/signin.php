@@ -11,18 +11,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         // Query the database to check if the user exists
         include "sql_db_connection.php";
+
         $sql = "SELECT U_id, email, password FROM user WHERE email = ? LIMIT 1";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s", $email);
         $stmt->execute();   
         $result = $stmt->get_result();
         $user = $result->fetch_assoc();
-        if ($user && password_verify($password, $user['password'])) {
+        if ($user && password_verify($password, $user['password'])) 
+
+        {
+        
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_email'] = $user['email'];
             header("Location: ../../function.php");
             exit;
-        } else {
+
+        } 
+        else {
             $_SESSION['error'] = "Invalid email or password.";
         }
     }

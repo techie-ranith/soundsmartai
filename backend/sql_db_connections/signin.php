@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             exit;
         } else {
             $_SESSION['error'] = "Invalid email or password.";
-            header("Location: login.php"); // Redirect back to the login page
+            header("Location: siginin.php"); // Redirect back to the login page
             exit;
         }
 

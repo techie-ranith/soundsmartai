@@ -24,8 +24,9 @@ def upload_file():
         result = model.transcribe(audio)
         transcribed_text = result["text"]
 
-        with open('your_file.txt', 'w') as f:
+        with open('your_file.txt', 'w', encoding='utf-8') as f:
             f.write(transcribed_text)
+            print("done")
 
             print("done")
         # Return the transcribed text as a JSON response

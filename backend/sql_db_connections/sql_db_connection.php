@@ -2,7 +2,7 @@
 $host = "localhost"; 
 $username = "root"; 
 $password = "123456789"; 
-$database = "soundsmartai"; 
+$database = "soun_sounds1";
 
 
 $conn = new mysqli($host, $username, $password, $database);

@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         // Query the database to check if the user exists
         include "sql_db_connection.php";
-        $sql = "SELECT U_id, password, email FROM user WHERE email = ?";
+        $sql = "SELECT * FROM user WHERE email ='$email' AND password ='$password' ";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s", $email);
         $stmt->execute();   

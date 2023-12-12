@@ -19,10 +19,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $user = $result->fetch_assoc();
 
 
-        if ($user && password_verify($password, $user['password'])) {
+        if ($user && password_verify($_post["password"], $user['password'])) {
             $_SESSION['user_id'] = $user['U_id'];  // Corrected column name
             $_SESSION['user_email'] = $user['email'];
-        
+            die("Login successful");
             header("Location: ../../function.php");
             exit;
         } else {

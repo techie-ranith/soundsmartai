@@ -43,11 +43,11 @@
                 </div>
                 <div class="email">
                     <label for=""><b>E-Mail</label></b><br><br>
-                    <input type="text" name="email" id="email" require>
+                    <input type="text" name="email"  require>
                 </div><br>
                 <div class="pwd">
                     <label for=""><b>Password</b></label> <br><br>
-                    <input type="password" id="password" name="password">
+                    <input type="password"  name="password">
                 </div><br>
                 <div class="icons">
                 <div class="icon" id="facebook"></div>

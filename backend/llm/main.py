@@ -24,8 +24,9 @@ def upload_file():
         result = model.transcribe(audio)
         transcribed_text = result["text"]
 
-        with open("output.txt", 'w') as f:
+        with open('your_file.txt', 'w') as f:
             f.write(transcribed_text)
+
             print("done")
         # Return the transcribed text as a JSON response
         return jsonify({'text': transcribed_text})
@@ -35,4 +36,4 @@ def upload_file():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000,debug=True)
+    app.run(host='0.0.0.0', port=5000)

@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     console.log("fetch api");
                     fetch("http://127.0.0.1:5000/audio", {
                         method: "POST",
-                        body: formData, 
+                        body: formData,
                     })
                     .then((response) => response.json())
                     .then((transcribed_text) => {

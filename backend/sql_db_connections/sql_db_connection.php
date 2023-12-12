@@ -5,13 +5,12 @@ $password = "123456789";
 $database = "soun_mart";
 
 
+$conn = new mysqli($host, $username, $password, $database);
 
-$conn = mysqli_connect($host, $username, $password, $database);
-
-if (!$conn) {
-    die("Connection failed: ".mysqli_connect_error()); 
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 } else {
-    echo "
-    <script>alert('Database connection successfull');</script>";
+    // Connection succeeded, generate JavaScript alert
+    echo "<script>alert('Database connection successful');</script>";
 }
 ?>

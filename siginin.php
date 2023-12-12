@@ -38,7 +38,7 @@
     </div>
     <div class="right">
         <div>
-            <form action="backend/sql_db_connections/signin_inc.php" method="POST">
+            <form action="backend/sql_db_connections/signin.php" method="POST">
                 <div class="main"><h1>Sign In</h1>
                 </div>
                 <div class="email">
@@ -54,7 +54,7 @@
                 <div class="icon" id="email"></div>
                 <div class="icon" id="apple"></div>
                 </div>
-                <div class="done"><button name="submit" type="submit">Sign In</button></div>
+                <div class="done"><button type="submit">Sign In</button></div>
                 <div class="noacc"> Don't have an Account?<a href="#">Sign Up</a> </div>
             </form>
         </div>

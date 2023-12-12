@@ -37,7 +37,7 @@
     </div>
     <div class="right">
         <div>
-            <form id="SignUp" action="backend/sql_db_connections/signup_inc.php" method="POST">
+            <form id="SignUp" action="backend/sql_db_connections/signup.php" method="POST">
                 <div class="main"><h1>Create Your Account</h1>
                 </div><br>
                 <div class="name">
@@ -61,7 +61,7 @@
              <div class="icon" id="email"></div>
               <div class="icon" id="apple"></div>
                 </div>
-                <div class="done"><button type="submit" name="submit">Sign Up</button></div>
+                <div class="done"><button type="submit">Sign Up</button></div>
                 <div class="noacc"> Already have an account?<a href="#">Sign in</a> </div>
             </form>
         </div>

@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // User does not exist, proceed with registration
 
             // Hash the password (you should use a secure password hashing mechanism like bcrypt)
-            $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+            $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
 
             // Create a prepared statement for registration
             $price_plan = "free";

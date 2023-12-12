@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Query the database to check if the user exists
         include "sql_db_connection.php";
         
-        $sql = "SELECT * FROM user WHERE email = ? LIMIT 1";
+        $sql = "SELECT * FROM user WHERE email = ? ";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s", $email);
         $stmt->execute();
@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $user = $result->fetch_assoc();
 
         // Check if the user exists and the password is correct
-        if ($user && password_verify($password, $user['password'])) {
+        if ($user !=null && password_verify($password, $user['password'])) {
             $_SESSION['user_id'] = $user['U_id'];
             $_SESSION['user_email'] = $user['email'];
 

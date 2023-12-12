@@ -22,6 +22,8 @@
     
 <body class="text-white bg-black ">
 
+<?php echo $_SESSION["useremail"]; ?>
+
     <div class="flex items-center justify-center h-screen container1 " id="contain01">
         <div class="flex flex-col items-center w-1/5 h-full gap-4 p-5 border-2 border-blue-600 border-dashed left">
             <div class="flex items-start content-center h-1/6 new-audio ">

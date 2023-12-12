@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 // Execute the statement
                 if ($stmt->execute()) {
-                    session_start();
+                    // Registration successful, redirect to a protected page
                     $_SESSION["user_id"] = $stmt->insert_id;
                     $_SESSION["user_email"] = $email;
 

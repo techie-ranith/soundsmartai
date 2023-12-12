@@ -25,7 +25,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_email'] = $user['email'];
-            $_SESSION['user_password'] = $user['password'];
 
             header("Location: ../../function.php");
             exit;

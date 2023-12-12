@@ -25,12 +25,12 @@
     <?php    include "cursor.php";?>
     <?php    include "navbar.php";?>
     <?php
-        if (isset($_SESSION['siginin_error'])) {
+        if (isset($_SESSION['error'])) {
         // Display the error message
-        echo '<p style="color: red;">' . $_SESSION['signup_error'] . '</p>';
+        echo '<p style="color: red;">' . $_SESSION['error'] . '</p>';
 
         // Clear the session variable to avoid displaying the same error multiple times
-        unset($_SESSION['siginin_error']);
+        unset($_SESSION['error']);
         }
     ?>
 <div class="container">

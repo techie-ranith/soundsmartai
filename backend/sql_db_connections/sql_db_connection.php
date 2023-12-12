@@ -1,8 +1,8 @@
 <?php
 $host = "localhost"; 
-$username = "root"; 
+$username = "soun_mart"; 
 $password = "123456789"; 
-$database = "soun_sounds1";
+$database = "soun_mart";
 
 
 $conn = new mysqli($host, $username, $password, $database);

@@ -13,10 +13,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate user inputs
     if (empty($name) || empty($email) || empty($password) || empty($confirm_pwd)) {
         $signupError = "Please provide all required information.";
+        $_SESSION['signup_error'] = $signupError;
+        exit();
     } elseif ($password != $confirm_pwd) {
         $signupError = "Passwords do not match.";
+        $_SESSION['signup_error'] = $signupError;
+        exit();
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $signupError = "Invalid email format.";
+        $_SESSION['signup_error'] = $signupError;
+        exit();
     }
 
     // Check if there are no validation errors
@@ -57,21 +63,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     exit();
                 } else {
                     $signupError = "Registration failed: " . $stmt->error;
+                    $_SESSION['signup_error'] = $signupError;
+                    exit();
                 }
             } else {
                 $signupError = "Database error: " . $conn->error;
+                $_SESSION['signup_error'] = $signupError;
+                exit();
             }
             // Close the prepared statement for registration
             $stmt->close();
         } else {
             $signupError = "Email already exists. Please choose another email.";
+            $_SESSION['signup_error'] = $signupError;
+            exit();
         }
 
         // Close the prepared statement for checking existing email
         $stmtCheck->close();
-    }else{
-        $_SESSION['signup_error'] = $signupError;
-        exit();
     }
 }
 ?>

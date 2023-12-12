@@ -61,7 +61,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             } else {
                 $signupError = "Database error: " . $conn->error;
             }
-
             // Close the prepared statement for registration
             $stmt->close();
         } else {

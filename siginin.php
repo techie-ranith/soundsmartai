@@ -20,16 +20,19 @@
     <link rel="stylesheet" href="./css/media-signin.css">
 </head>
 <body>
+    
     <!-- Include a navbar if needed -->
     <?php    include "cursor.php";?>
     <?php    include "navbar.php";?>
     <?php
-        if (isset($_SESSION['error'])) {
-            echo "<script>alert('" . $_SESSION['error'] . "');</script>";
-            unset($_SESSION['error']);
+        if (isset($_SESSION['signup_error'])) {
+        // Display the error message
+        echo '<p style="color: red;">' . $_SESSION['signup_error'] . '</p>';
+
+        // Clear the session variable to avoid displaying the same error multiple times
+        unset($_SESSION['signup_error']);
         }
     ?>
-    
 <div class="container">
     <div class="left">
     </div>

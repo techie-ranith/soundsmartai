@@ -10,8 +10,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Check for empty email or password
     if (empty($email) || empty($password)) {
         $_SESSION['error'] = "Please fill in both email and password.";
-        header("Location: login.php"); // Redirect back to the login page
+        header("Location: siginin.php"); // Redirect back to the login page
         exit;
+
     } else {
         // Query the database to check if the user exists
         include "sql_db_connection.php";

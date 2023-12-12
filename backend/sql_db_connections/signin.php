@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         // Query the database to check if the user exists
         include "sql_db_connection.php";
-        $sql = "SELECT U_id, password, email FROM user WHERE email = ? LIMIT 5";
+        $sql = "SELECT U_id, password, email FROM user WHERE email = ?";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s", $email);
         $stmt->execute();   
@@ -21,20 +21,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $user = $result->fetch_assoc();
 
 
-        if ($user && password_verify($password, $user['password'])) 
-
-        {
-        
-            $_SESSION['user_id'] = $user['U_id'];
+        if ($user && password_verify($password, $user['password'])) {
+            $_SESSION['user_id'] = $user['U_id'];  // Corrected column name
             $_SESSION['user_email'] = $user['email'];
-
+        
             header("Location: ../../function.php");
             exit;
-
-        } 
-        else {
+        } else {
             $_SESSION['error'] = "Invalid email or password.";
         }
+        
     }
 
     // Query the database to check if the user exists

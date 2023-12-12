@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         // Query the database to check if the user exists
         include "sql_db_connection.php";
-        $sql = "SELECT U_id, email, password FROM user WHERE email = ? AND password = ? LIMIT 1";
+        $sql = "SELECT U_id, email, password FROM user WHERE email = ? LIMIT 5";
         $stmt = $conn->prepare($sql);
         $stmt->bind_param("s", $email);
         $stmt->execute();   

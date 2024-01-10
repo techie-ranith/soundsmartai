@@ -31,7 +31,14 @@
                 <div class="w-full">Previous</div>
                 <div class="flex items-center content-center">
                     <div class="icon" style="background-image: url('assest/headphone.png');"></div>
-                    <div class="">audio name</div>
+                    <div class="">audio-1 </div>
+                    <div class="">audio-2</div>
+                    <div class="">audio-3</div>
+                    <div class="">audio-4</div>
+                    <div class="">audio-5</div>
+                    <div class="">audio-6</div>
+                    <div class="">audio-7</div>
+                    <div class="">audio-8</div>
                 </div>
             </div>
         </div>
@@ -48,9 +55,7 @@
                 </div>
             </div>
             <div class="w-4/5 border-2 border-blue-600 border-dashed bottom h-1/2">
-                <div id="text">what if i told you that you can do twice the amount of study that your
-                                doing right now in half of the time
-                                so insted of spending twenty hours for week.</div>
+                <div id="text"></div>
             </div>
         </div>
     </div>

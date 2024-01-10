@@ -48,7 +48,9 @@
                 </div>
             </div>
             <div class="w-4/5 border-2 border-blue-600 border-dashed bottom h-1/2">
-                <div id="text">text</div>
+                <div id="text">what if i told you that you can do twice the amount of study that your
+                                doing right now in half of the time
+                                so insted of spending twenty hours for week.</div>
             </div>
         </div>
     </div>
